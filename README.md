@@ -1,6 +1,6 @@
-# curso-de-algoritmos
+# Curso de algoritmos y estructuras de datos. 🧮
 
-### Fundamentos
+### Fundamentos 📝
 
 * Complejidad Computacional
 * Analisis de algoritmos
@@ -10,7 +10,7 @@
 * Algoritmos de Busqueda
 * Estructura de Datos
 
-### [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift)
+### [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
 
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -33,7 +33,7 @@
   * Grafos
 
 
-### [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript)
+### [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
@@ -54,7 +54,7 @@
   * Arboles
   * Grafos
   
-### [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python)
+### [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python) 🐍
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
@@ -75,7 +75,7 @@
   * Arboles
   * Grafos
 
-## Bibliografia
+## Bibliografia 📚
 
 #### E-books :
 
