@@ -6,12 +6,12 @@ var Stack = function() {
   this.count = 0;
   this.storage = {};
   
-  this.push = funciton(value){
+  this.push = function(value){
     this.storage[this.count] = value;
     this.count++;
   }
   
-  this.pop = funciton() {
+  this.pop = function() {
     if(this.count === 0){
       return undefined; 
     }
