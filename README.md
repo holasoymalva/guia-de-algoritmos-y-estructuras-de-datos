@@ -2,13 +2,13 @@
 
 ### Fundamentos 📝
 
-* Complejidad Computacional
-* Analisis de algoritmos
-* Capacidad de Memoria
-* Tipos de algoritmos
-* Algoritmos de Ordenamiento
-* Algoritmos de Busqueda
-* Estructura de Datos
+* [Complejidad Computacional](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#complejidad-computacional-wiki-reference)
+* [Analisis de algoritmos](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#analisis-de-algoritmos-wiki-reference)
+* [Capacidad de Memoria](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#capacidad-de-memoria)
+* [Tipos de algoritmos](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#tipos-de-algoritmos)
+* [Algoritmos de Ordenamiento](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#algoritmos-de-ordenamiento)
+* [Algoritmos de Busqueda](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#algoritmos-de-busqueda)
+* [Estructura de Datos](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#estructura-de-datos)
 
 ### [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
 
