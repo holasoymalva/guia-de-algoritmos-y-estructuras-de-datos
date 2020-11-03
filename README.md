@@ -79,17 +79,21 @@
 
 #### E-books :
 
-* [ Competitive Programmer’s Handbook ](https://cses.fi/book/book.pdf)
-* [ Competitive Programming ](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)
-* [ Algorithms Notes for Professionals](https://openlibra.com/es/book/algorithms-notes-for-professionals)
+* [ Competitive Programmer’s Handbook. ](https://cses.fi/book/book.pdf)
+* [ Competitive Programming. ](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)
+* [ Algorithms Notes for Professionals. ](https://openlibra.com/es/book/algorithms-notes-for-professionals)
 
 #### Youtube Tutorials :
 
-* [Free Code Camp](https://www.youtube.com/watch?v=t2CEgPsws3U&t=739s)
-* [Algorthms Preparations List](https://www.youtube.com/watch?v=t2CEgPsws3U&list=PLVzHx209dzcWc5-OC8-Has_Jok7ft1Xfs&index=2)
+* [ Free Code Camp. ](https://www.youtube.com/watch?v=t2CEgPsws3U&t=739s)
+* [ Algorthms Preparations List. ](https://www.youtube.com/watch?v=t2CEgPsws3U&list=PLVzHx209dzcWc5-OC8-Has_Jok7ft1Xfs&index=2)
 
 #### Courses :
 
-* [Udacity Data Structures in Swift]()
-* [Udacity Data Structures in Python]()
-* [Coursera]()
+* [ Udacity Data Structures in Swift. ]()
+* [ Udacity Data Structures in Python. ]()
+* [ Coursera. ]()
+
+#### Articles:
+
+* [ 10 Data Structures explained. ](https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/)
