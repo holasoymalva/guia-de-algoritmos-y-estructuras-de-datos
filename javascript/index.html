@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document algorithms</title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+        console.log('QUEUE');
+        // Queue
+        function Queue() {
+            let collection = [];
+            this.print = function() {
+                console.log(collection);
+            }
+            this.enqueue = function (element) {
+                return collection.push(element);
+            }
+            this.dequeue = function () {
+                return collection.shift();
+            }
+            this.front = function() {
+                return collection[0]
+            }
+            this.size = function () {
+                return collection.length;
+            }
+            this.isEmpty = function () {
+                return (collection.length === 0);
+            }
+        }
+
+        let queue1 =  new Queue();
+        q.enqueue('a')
+        q.enqueue('b')
+        q.enqueue('c')
+        q.print()
+
+        function PriorityQueue() {
+            let collection = [];
+            
+            
+        }
+    </script>
+</html>
