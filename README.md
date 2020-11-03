@@ -97,3 +97,16 @@
 #### Articles:
 
 * [ 10 Data Structures explained. ](https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/)
+
+#### Motivation
+* [How to write your first technical book. ](https://www.freecodecamp.org/news/how-to-write-your-first-technical-book/)
+* [How to build an awesome data science portafolio. ](https://www.freecodecamp.org/news/how-to-build-an-awesome-data-science-portfolio/)
+* [5 react projects you need. ](https://www.freecodecamp.org/news/5-react-projects-you-need-in-your-portfolio/)
+* [conquering job interview code challenges. ](https://www.freecodecamp.org/news/conquering-job-interview-code-challenges-v2-0/)
+* [Job Interview Artitles. ](https://www.freecodecamp.org/news/tag/job-interview/)
+* [4 Design Patterns You Should Know](https://www.freecodecamp.org/news/4-design-patterns-to-use-in-web-development/)
+* [how-to-write-efficient-views](https://www.freecodecamp.org/news/how-to-write-efficient-views-models-and-queries-in-django/)
+* [How to Write QA Documentation That Will Actually Work](https://www.freecodecamp.org/news/how-to-write-qa-documentation-that-will-work/)
+* [How to Write Testable Code | Khalil's Methodology](https://www.freecodecamp.org/news/how-to-write-testable-code/)
+* [How to Write More Effectively and Develop Your Unique Style](https://www.freecodecamp.org/news/how-to-write-more-effectively-and-develop-your-unique-style/)
+* [How to Write Freelance Proposals That Will Win Over Clients](https://www.freecodecamp.org/news/free-web-design-proposal-template/)
