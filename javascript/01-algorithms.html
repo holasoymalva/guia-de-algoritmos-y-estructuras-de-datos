@@ -9,8 +9,46 @@
     <body>
             <input placeholder="Enter some text" name="name"/>
             <p id="log"></p>
+            <h1 id="search_algorithms"></h1>
     </body>
     <script> 
+        
+        // How to solve a problem ?
+        
+        // Problem Solving Patterns
+        
+        // Search Algorithms
+        const search_algorithms = document.getElementById('search_algorithms');
+        let Stack = [1,2,3,4,5,6,8]
+        
+        function binarySearch(input,value) {
+            let start = 0;
+            let end=input.length-1;
+            while (start <= end) {
+                let mid = Math.floor((start + end)/2);
+                if (input[mid]===value) return true;
+                else if (input[mid] < value) {
+                    start = mid + 1 ;
+                }
+                else
+                    end = mid - 1;
+            }
+            return false;
+            
+        }
+        let value = 3;
+        if (binarySearch(Stack, value)) 
+            document.write("Element found!<br>"); 
+        else document.write("Element not found!<br>"); 
+        // Data Structures
+        
+        
+        
+        
+        // ----------- Algorithms Problem Solving -----------
+        // ----------- Algorithms Problem Solving -----------
+        // ----------- Algorithms Problem Solving -----------
+
         const input = document.querySelector('input');
         const log = document.getElementById('log');
         input.addEventListener('change', updateValue);
