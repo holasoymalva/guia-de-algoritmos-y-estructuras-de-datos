@@ -45,5 +45,54 @@
             
             
         }
+        
+        // Stack
+        class Node{
+            constructor(value){
+                this.value = value;
+                this.next = null;
+            }
+        }
+        // const nod01 = new Node(1);
+        class LinkedList{
+            constructor(head = null){
+                this.head = head;
+            }
+            append(value){
+                
+                let node = new Node(value)
+                let current 
+                if (this.head == null) {
+                    this.head = node;
+                }else{
+                    current = this.head;
+                    while (current.next ) {
+                        current = current.next;
+                    }
+                    current.next = node;
+                }
+            }
+            listItems(){
+                if (this.head == null){
+                    console.log('LISTA VACIA');
+                    
+                }else{
+                    let current = this.head;
+                    let items = []
+                    while (current.next) {
+                        items.push(current);
+                        current = current.next;
+                    }
+                    items.push(current)
+                    return items;
+                }
+            }
+        }
+        const linked01 = new LinkedList();
+        linked01.append(1);
+        linked01.append(2);
+        linked01.append(3);
+        console.log( linked01.listItems());
+        // Reference : https://www.geeksforgeeks.org/implementation-linkedlist-javascript/
     </script>
 </html>
