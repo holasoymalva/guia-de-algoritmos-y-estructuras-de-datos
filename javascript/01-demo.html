@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffcc80;
+        }
+        .container{
+            margin: auto;
+            display: flex;
+            top: 50%;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .card{
+            padding: 20px;
+            background-color: #eee;
+            border-radius: 15px;
+        }
+        .card__input{
+            border-radius: 10px;
+        }
+        .card__button{
+            border-color: transparent;
+        }
+        #result{
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+
+            <h1>Example</h1>
+            <input type="text" placeholder="Add yout test" id="input" class="card__input">
+            <button class="card__button" onclick="processing()">💻</button>
+            <h3>
+                Result: <span id="result"></span>
+            </h3>
+        </div>
+    </div>
+    <script>
+        function processing() {
+            let result = document.getElementById("result");
+            let input = document.getElementById("input").value.toUpperCase();
+            let temp = input.split("");
+            temp = temp.reverse().join("");
+            if (input === temp) {
+                result.innerHTML = "Is a palindrome";
+            } else {
+                result.innerHTML = "Isn't a palindrome";
+            }
+        }
+    </script>
+</body>
+
+</html>
