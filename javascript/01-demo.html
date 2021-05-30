@@ -45,14 +45,21 @@
             <h3>
                 Result: <span id="result"></span>
             </h3>
+            <h3>
+                Time: <span id="timeTook"></span>
+            </h3>
         </div>
     </div>
     <script>
         function processing() {
+            let t0 = Date.now()
             let result = document.getElementById("result");
             let input = document.getElementById("input").value.toUpperCase();
             let temp = input.split("");
             temp = temp.reverse().join("");
+            let t1 = Date.now()
+            timeTook.innerHTML = (t1 - t0);
+            console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.")
             if (input === temp) {
                 result.innerHTML = "Is a palindrome";
             } else {
