@@ -4,15 +4,52 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Interactive Notes</title>
+        <style>
+            body{
+                background-color: yellowgreen;
+            }
+            .container{
+                margin: auto;
+                display: flex;
+                top: 50%;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Roboto', sans-serif;
+            }
+            .card{
+                padding: 20px;
+                background-color: #eee;
+                border-radius: 15px;
+            }
+            .card__input{
+                border-radius: 10px;
+            }
+            .card__button{
+                border-color: transparent;
+            }
+            #result{
+                color: tomato;
+            }
+        </style>
     </head>
     <body>
-            <input placeholder="Enter some text" name="name"/>
-            <p id="log"></p>
-            <h1 id="search_algorithms"></h1>
+        <div class="container">
+            <div class="card">
+                <h1 class="card__title">Algorithms: </h1>
+                <input type="text" placeholder="Add yout test" id="input" class="card__input">
+                <button class="card__button" onclick="processing()">💻</button>
+                <h3>
+                    Result: <span id="result"></span>
+                </h3>
+                <h3>
+                    Time: <span id="timeTook"></span>
+                </h3>
+            </div>
+        </div>
     </body>
     <script> 
-        
         // How to solve a problem ?
         
         // Problem Solving Patterns
@@ -37,9 +74,11 @@
             
         }
         let value = 3;
-        if (binarySearch(Stack, value)) 
-            document.write("Element found!<br>"); 
-        else document.write("Element not found!<br>"); 
+        // if (binarySearch(Stack, value)) 
+        //     document.write("Element found!<br>"); 
+        // else document.write("Element not found!<br>"); 
+
+
         // Data Structures
         
         
