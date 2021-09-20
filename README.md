@@ -97,6 +97,7 @@
 #### Articles:
 
 * [ 10 Data Structures explained. ](https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/)
+* [DS-A Workshop @GDGUNAM](https://www.notion.so/DS-A-Workshop-GDGUNAM-8979d2f322d647b5b871da74e862ba3d)
 
 #### Motivation
 * [How to write your first technical book. ](https://www.freecodecamp.org/news/how-to-write-your-first-technical-book/)
