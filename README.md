@@ -10,29 +10,6 @@
 * [Algoritmos de Busqueda](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#algoritmos-de-busqueda)
 * [Estructura de Datos](https://github.com/alchemist3301/curso-de-algoritmos/blob/main/fundamentos/01-fundamentals.md#estructura-de-datos)
 
-### [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
-
-* Algoritmos de Ordenamiento
-  * Burbuja
-  * Binaria
-  * Selection
-  * Merge
-  * QuickSort
-  * Analisis de Algoritmos de ordemamiento
-* Algoritmos de Busqueda
-    * Busqueda Binaria
-* Estructura de Datos
-  * Arreglos
-  * Listas
-  * Listas Enlazadas
-  * Pilas
-  * Colas
-  * Listas Doblemente Enlazadas
-  * Hash Tables
-  * Arboles
-  * Grafos
-
-
 ### [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -55,6 +32,36 @@
   * Grafos
   
 ### [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python) 🐍
+* Algoritmos de Ordenamiento
+  * Burbuja
+  * Binaria
+  * Selection
+  * Merge
+  * QuickSort
+  * Analisis de Algoritmos de ordemamiento
+* Algoritmos de Busqueda
+    * Busqueda Binaria
+* Estructura de Datos
+  * Arreglos
+  * Listas
+  * Listas Enlazadas
+  * Pilas
+  * Colas
+  * Listas Doblemente Enlazadas
+  * Hash Tables
+  * Arboles
+  * Grafos
+
+
+### [Golang](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/golang) 🫐
+
+* Algoritmos de Ordenamiento
+* Algoritmos de Busqueda
+* Estructura de Datos
+
+
+### [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
+
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
