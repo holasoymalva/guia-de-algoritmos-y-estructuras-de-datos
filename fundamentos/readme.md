@@ -21,25 +21,28 @@ Los campos estrechamente relacionados en la informática teórica son el anális
 
 En informática , el análisis de algoritmos es el proceso de encontrar la complejidad computacional de los algoritmos: la cantidad de tiempo, almacenamiento u otros recursos necesarios para ejecutarlos . Por lo general, esto implica determinar una función que relaciona la longitud de la entrada de un algoritmo con el número de pasos que toma (su complejidad temporal ) o el número de ubicaciones de almacenamiento que utiliza (su complejidad espacial ). Se dice que un algoritmo es eficiente cuando los valores de esta función son pequeños o crecen lentamente en comparación con un crecimiento en el tamaño de la entrada. Diferentes entradas de la misma longitud pueden hacer que el algoritmo tenga un comportamiento diferente, por lo queLas descripciones de casos mejores, peores y promedio podrían ser de interés práctico. Cuando no se especifica lo contrario, la función que describe el rendimiento de un algoritmo suele ser un límite superior , determinado a partir de las entradas del peor caso al algoritmo.
 
+## Big O Notation - Notacion de la Gran O
+
 
 
 ## Capacidad de Memoria
 
 Por otra parte un tema muy importante a tener el cuenta es la cantidad de recursos con lo que se cuenta para poder almacenar datos ya que , al igual que con el tiempo, el uso excesibo de memoria puede ocacionar que nuestro programa se desborde y deje de funcionar correctamente o simplemente, no funcione.
 
+## Introduccion a la resolucion de Problemas
+
+
+## Patrones de Resolucion de Problemas
+
 
 ## Tipos de algoritmos
-
-
 
 
 ## Algoritmos de Ordenamiento
 
 
-
-
 ## Algoritmos de Busqueda
 
 
+## Estructuras de Datos
 
-## Estructura de Datos
