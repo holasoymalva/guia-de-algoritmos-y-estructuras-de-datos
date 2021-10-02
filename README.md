@@ -118,3 +118,4 @@
 * [How to Write Testable Code | Khalil's Methodology](https://www.freecodecamp.org/news/how-to-write-testable-code/)
 * [How to Write More Effectively and Develop Your Unique Style](https://www.freecodecamp.org/news/how-to-write-more-effectively-and-develop-your-unique-style/)
 * [How to Write Freelance Proposals That Will Win Over Clients](https://www.freecodecamp.org/news/free-web-design-proposal-template/)
+* [Data Structures 101](https://rehansattar.hashnode.dev/data-structures-101-graph-traversal-bfs-and-dfs)
