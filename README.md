@@ -7,10 +7,10 @@
 * Estructura de datos en Javascript
 * Algoritmos en Python
 * Estructura de datos en Python
-* * Algoritmos en Swift
-* Estructura de datos en Swift
+* Algoritmos en Swift
+* [Estructura de datos en Swift](https://github.com/malvabombom/curso-de-algoritmos/blob/main/README.md#estructura-de-datos-1)
 * Algoritmos en Golang
-* Estructura de datos en Golang
+* [Estructura de datos en Golang](https://github.com/malvabombom/curso-de-algoritmos/blob/main/README.md#estructura-de-datos-2)
 * [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
 * [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
 
