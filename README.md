@@ -11,11 +11,10 @@
 * Estructura de datos en Swift
 * Algoritmos en Golang
 * Estructura de datos en Golang
-* Documentacion
 * [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
 * [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
 
-### Fundamentos 📝
+## Fundamentos 📝
 
 * [Complejidad Computacional](https://github.com/malvabombom/curso-de-algoritmos/tree/main/fundamentos#complejidad-computacional-wiki-reference)
 * [Analisis de algoritmos](https://github.com/malvabombom/curso-de-algoritmos/tree/main/fundamentos#analisis-de-algoritmos-wiki-reference)
@@ -26,7 +25,7 @@
 * [Estructura de Datos](https://github.com/malvabombom/curso-de-algoritmos/tree/main/fundamentos#estructuras-de-datos)
 
 
-### [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
+## [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
@@ -36,7 +35,7 @@
   * Analisis de Algoritmos de ordemamiento
 * Algoritmos de Busqueda
     * Busqueda Binaria
-* Estructura de Datos
+#### Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
@@ -47,7 +46,8 @@
   * Arboles
   * Grafos
   
-### [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python) 🐍
+## [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python) 🐍
+
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
@@ -57,7 +57,8 @@
   * Analisis de Algoritmos de ordemamiento
 * Algoritmos de Busqueda
     * Busqueda Binaria
-* Estructura de Datos
+
+#### Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
@@ -69,14 +70,14 @@
   * Grafos
 
 
-### [Golang](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/golang) 🫐
+## [Golang](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/golang) 🫐
 
 * Algoritmos de Ordenamiento
 * Algoritmos de Busqueda
 * Estructura de Datos
 
 
-### [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
+## [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
 
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -87,7 +88,7 @@
   * Analisis de Algoritmos de ordemamiento
 * Algoritmos de Busqueda
     * Busqueda Binaria
-* Estructura de Datos
+#### Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
