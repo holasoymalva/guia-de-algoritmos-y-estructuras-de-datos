@@ -10,6 +10,7 @@
 * [Algoritmos de Busqueda](https://github.com/malvabombom/curso-de-algoritmos/tree/main/fundamentos#algoritmos-de-busqueda)
 * [Estructura de Datos](https://github.com/malvabombom/curso-de-algoritmos/tree/main/fundamentos#estructuras-de-datos)
 
+
 ### [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -119,3 +120,13 @@
 * [How to Write More Effectively and Develop Your Unique Style](https://www.freecodecamp.org/news/how-to-write-more-effectively-and-develop-your-unique-style/)
 * [How to Write Freelance Proposals That Will Win Over Clients](https://www.freecodecamp.org/news/free-web-design-proposal-template/)
 * [Data Structures 101](https://rehansattar.hashnode.dev/data-structures-101-graph-traversal-bfs-and-dfs)
+
+
+
+## Contributing 
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
