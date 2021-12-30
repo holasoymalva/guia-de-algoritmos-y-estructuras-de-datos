@@ -1,5 +1,20 @@
 # Curso de algoritmos y estructuras de datos. 🧮
 
+## INDICE :
+
+* Fundamentos
+* Algoritmos en Javascript
+* Estructura de datos en Javascript
+* Algoritmos en Python
+* Estructura de datos en Python
+* * Algoritmos en Swift
+* Estructura de datos en Swift
+* Algoritmos en Golang
+* Estructura de datos en Golang
+* Documentacion
+* [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
+* [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
+
 ### Fundamentos 📝
 
 * [Complejidad Computacional](https://github.com/malvabombom/curso-de-algoritmos/tree/main/fundamentos#complejidad-computacional-wiki-reference)
