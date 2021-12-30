@@ -2,15 +2,11 @@
 
 ## INDICE :
 
-* Fundamentos
-* Algoritmos en Javascript
-* Estructura de datos en Javascript
-* Algoritmos en Python
-* Estructura de datos en Python
-* Algoritmos en Swift
-* [Estructura de datos en Swift](https://github.com/malvabombom/curso-de-algoritmos/blob/main/README.md#estructura-de-datos-1)
-* Algoritmos en Golang
-* [Estructura de datos en Golang](https://github.com/malvabombom/curso-de-algoritmos/blob/main/README.md#estructura-de-datos-2)
+* [Fundamentos](https://github.com/malvabombom/curso-de-algoritmos#fundamentos-)
+* [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#js-)
+* [Algoritmos y Estructura de datos en Python](https://github.com/malvabombom/curso-de-algoritmos#python-)
+* [Algoritmos y Estructura de datos en Swift](https://github.com/malvabombom/curso-de-algoritmos#swift-)
+* [Algoritmos y Estructura de datos en Golang](https://github.com/malvabombom/curso-de-algoritmos#golang-)
 * [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
 * [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
 
@@ -35,7 +31,7 @@
   * Analisis de Algoritmos de ordemamiento
 * Algoritmos de Busqueda
     * Busqueda Binaria
-#### Estructura de Datos
+* Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
@@ -57,8 +53,7 @@
   * Analisis de Algoritmos de ordemamiento
 * Algoritmos de Busqueda
     * Busqueda Binaria
-
-#### Estructura de Datos
+* Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
@@ -88,7 +83,7 @@
   * Analisis de Algoritmos de ordemamiento
 * Algoritmos de Busqueda
     * Busqueda Binaria
-#### Estructura de Datos
+* Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
