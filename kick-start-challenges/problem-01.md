@@ -46,7 +46,7 @@ Test set 2 (Hidden)
 Case #1: 1 1 2
 Case #2: 1 1 2 2 2 3
 ```
-## Code Solution
+## Code Solution in Javascript 🍋
 
 ``` javascript
 
