@@ -46,3 +46,15 @@ Test set 2 (Hidden)
 Case #1: 1 1 2
 Case #2: 1 1 2 2 2 3
 ```
+## Code Solution
+
+``` javascript
+
+const solution_h_index = (input) => {
+  console.log("value",input);
+  return input;
+}
+
+
+
+```
