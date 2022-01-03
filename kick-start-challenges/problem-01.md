@@ -55,6 +55,4 @@ const solution_h_index = (input) => {
   return input;
 }
 
-
-
 ```
