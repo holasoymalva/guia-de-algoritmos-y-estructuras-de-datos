@@ -2,9 +2,17 @@
 
 ## Algoritmos de Ordenamiento
 
+* [Burbuja](#burbuja)
+* [Selection](#selection)
+
 ### Burbuja
 
-### Binaria
+```javascript
+function burbuja() {
+  return 0;
+}
+burbuja();
+```
 
 ### Selection
 
