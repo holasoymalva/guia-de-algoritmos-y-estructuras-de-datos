@@ -67,9 +67,45 @@
 
 ## [Golang](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/golang) 🫐
 
+* Introduccion a los algoritmos
+* Estrategias de resolucion de problemas
+  * Divide y venceras
+  * Fuerza bruta
+
+* Big O notation
+  * Complegidad de procesamiento.
+  * Complegidad de Memoria.
+
 * Algoritmos de Ordenamiento
+  * Burbuja
+  * Binaria
+  * Selection
+  * Merge
+  * QuickSort
+  * Analisis de Algoritmos de ordemamiento
+  
 * Algoritmos de Busqueda
+ * Busqueda Binaria
+ 
 * Estructura de Datos
+  * Arreglos
+  * Listas
+  * Listas Enlazadas
+  * Pilas
+  * Colas
+  * Listas Doblemente Enlazadas
+  * Hash Tables
+  * Arboles
+  * Grafos
+  * Analisis de Estructuras de datos
+
+* Pruebas tecnicas en Golang
+  * Formato de las entrevistas laborales
+  * Formato de las pruebas tecnicas
+  * Pruebas basicas
+  * Pruebas intermedias
+  * Pruebas avanzadas
+ 
 
 
 ## [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/swift) 🍏
