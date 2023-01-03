@@ -71,6 +71,7 @@
 * Estrategias de resolucion de problemas
   * Divide y venceras
   * Fuerza bruta
+  * Recursion
 
 * Big O notation
   * Complegidad de procesamiento.
