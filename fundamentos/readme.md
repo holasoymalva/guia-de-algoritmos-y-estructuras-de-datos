@@ -99,6 +99,9 @@ Existen varios tipos de algoritmos computacionales, algunos de los cuales son lo
 * Algoritmos de backtracking: estos algoritmos prueban todas las soluciones posibles para un problema hasta encontrar la solución correcta.
 
 * Algoritmos de hashing: estos algoritmos se utilizan para buscar datos en una tabla hash, que es una estructura de datos que permite un acceso rápido a los elementos.
+* Algoritmos de cifrado: estos algoritmos se utilizan para proteger la privacidad y la seguridad de los datos, como en la criptografía y la seguridad informática.
+
+Estos son solo algunos ejemplos de los tipos de algoritmos que existen. Cada tipo de algoritmo se adapta a diferentes necesidades y problemas específicos.
 
 ## Algoritmos de Ordenamiento
 
