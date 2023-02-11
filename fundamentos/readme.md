@@ -23,6 +23,19 @@ En informática , el análisis de algoritmos es el proceso de encontrar la compl
 
 ## Big O Notation - Notacion de la Gran O
 
+La Notación Big O es una forma de medir el tiempo de ejecución y la complejidad de un algoritmo. Es una notación matemática que se utiliza para describir la relación entre el tamaño del problema y el tiempo que tarda en resolverlo un algoritmo. La Notación Big O se utiliza para describir el límite superior del tiempo de ejecución de un algoritmo y se representa como O(n), donde "n" representa el tamaño del problema.
+
+Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
+
+* Algoritmo de búsqueda lineal: Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada elemento en una secuencia hasta encontrar una coincidencia.
+
+* Algoritmo de búsqueda binaria: Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
+
+* Algoritmo de ordenamiento por selección: Este algoritmo tiene una complejidad temporal de O(n^2), ya que debe comparar cada elemento con todos los demás para encontrar el mínimo y moverlo a su posición final en la secuencia.
+
+* Algoritmo de ordenamiento rápido (QuickSort): Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
+
+Estos son solo algunos ejemplos de la Notación Big O en JavaScript. Al comprender y aplicar esta notación, los programadores pueden mejorar el rendimiento y la eficiencia de sus algoritmos y soluciones de programación.
 
 
 ## Capacidad de Memoria
