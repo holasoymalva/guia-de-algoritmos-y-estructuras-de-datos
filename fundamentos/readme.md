@@ -1,11 +1,7 @@
 ## Introduccion
 
-### Ejemplo de un problema 
+El análisis de algoritmos y las estructuras de datos son conceptos clave en la programación y el desarrollo de software. Estos temas nos permiten comprender cómo funcionan los programas que escribimos, y cómo podemos mejorarlos para hacerlos más eficientes en términos de tiempo y espacio. En estos apuntes, abordaremos los conceptos básicos del análisis de algoritmos, incluyendo la notación big O, la complejidad temporal y espacial, y los patrones de resolución de problemas. También exploraremos las diferentes estructuras de datos, como las listas, las pilas, las colas y los árboles, y cómo podemos utilizarlas para resolver problemas específicos de manera eficiente. Al final de estos apuntes, esperamos que tengas una comprensión profunda de estos conceptos y estés listo para aplicarlos a tus propios proyectos de programación.
 
-
-Ahora que ya has entendido que es la algoritmia y como entender un problema espero disfrutes de las proximas unidades.
-
-``` Enjoy Coding ```
 
 ## Complejidad Computacional [Wiki Reference](https://en.wikipedia.org/wiki/Computational_complexity_theory)
 
