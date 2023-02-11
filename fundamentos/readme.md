@@ -40,7 +40,11 @@ Estos son solo algunos ejemplos de la Notación Big O en JavaScript. Al comprend
 
 ## Capacidad de Memoria
 
-Por otra parte un tema muy importante a tener el cuenta es la cantidad de recursos con lo que se cuenta para poder almacenar datos ya que , al igual que con el tiempo, el uso excesibo de memoria puede ocacionar que nuestro programa se desborde y deje de funcionar correctamente o simplemente, no funcione.
+La capacidad de memoria es un aspecto importante a tener en cuenta en el análisis de algoritmos. Se refiere a la cantidad de memoria que un algoritmo necesita para funcionar adecuadamente.
+
+La cantidad de memoria que un algoritmo utiliza puede afectar su rendimiento y su capacidad para manejar grandes cantidades de datos. Por ejemplo, un algoritmo que utiliza mucha memoria puede ser más lento que otro que utiliza menos memoria, ya que la memoria limita la velocidad de acceso a los datos.
+
+Por lo tanto, es importante tener en cuenta la capacidad de memoria en el análisis de algoritmos para asegurarse de que el algoritmo sea eficiente en términos de memoria y sea capaz de manejar grandes cantidades de datos de manera eficiente.
 
 ## Introduccion a la resolucion de Problemas
 
@@ -53,6 +57,11 @@ Por otra parte un tema muy importante a tener el cuenta es la cantidad de recurs
 
 ## Algoritmos de Ordenamiento
 
+Los algoritmos de ordenamiento son procedimientos computacionales que permiten organizar un conjunto de datos en un orden determinado. El objetivo principal de los algoritmos de ordenamiento es tomar una lista de elementos y reorganizarlos de forma ascendente o descendente en función de un criterio específico, como el valor numérico, alfabético o cronológico.
+
+Existen muchos algoritmos de ordenamiento, cada uno con sus propias ventajas y desventajas en términos de eficiencia y complejidad. Algunos ejemplos de algoritmos de ordenamiento comunes incluyen la ordenación de burbuja, la ordenación por inserción, la ordenación por selección, la ordenación rápida y la ordenación por mezcla.
+
+Los algoritmos de ordenamiento son una parte importante de la programación y se utilizan en muchos campos, como la ciencia de datos, la investigación de operaciones, la informática empresarial, la informática de alto rendimiento y la ingeniería de software.
 
 ## Algoritmos de Busqueda
 
