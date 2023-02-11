@@ -68,9 +68,37 @@ La resolución de problemas en el análisis de algoritmos es una habilidad esenc
 
 ## Patrones de Resolucion de Problemas
 
+En el análisis de algoritmos, los patrones de resolución de problemas son un conjunto de técnicas y estrategias que se utilizan para abordar y solucionar un problema de manera eficiente. Algunos de los patrones de resolución de problemas más comunes incluyen:
+
+* Divide y vencerás: Este patrón se enfoca en dividir un problema grande en problemas más pequeños y manejables, y luego resolver cada uno de ellos por separado.
+
+* Fuerza bruta: Este patrón se enfoca en probar todas las posibles soluciones hasta encontrar la correcta. Es una estrategia simple, pero puede ser ineficiente si el problema es muy grande o complejo.
+
+* Backtracking: Este patrón se enfoca en retroceder y cambiar decisiones previas cuando se llega a un punto en el que se sabe que la solución actual no es viable.
+
+* Programación dinámica: Este patrón se enfoca en resolver subproblemas repetitivos de manera eficiente al almacenar y reutilizar soluciones previas.
+
+* Greedy Algorithm: Este patrón se enfoca en tomar decisiones a corto plazo en busca de una solución óptima.
+
+Estos son solo algunos de los patrones de resolución de problemas más comunes en el análisis de algoritmos. Con el tiempo, los programadores y los investigadores en la materia continúan desarrollando y mejorando estos patrones para hacer frente a problemas más complejos.
 
 ## Tipos de algoritmos
 
+Existen varios tipos de algoritmos computacionales, algunos de los cuales son los siguientes:
+
+* Algoritmos de ordenamiento: como se mencionó anteriormente, estos algoritmos organizan una lista de elementos en un orden determinado.
+
+* Algoritmos de búsqueda: estos algoritmos encuentran un elemento específico en una lista o conjunto de datos.
+
+* Algoritmos de grafos: estos algoritmos se utilizan para resolver problemas relacionados con estructuras de grafos, como encontrar rutas óptimas, detectar ciclos y encontrar caminos más cortos.
+
+* Algoritmos de árboles: estos algoritmos se utilizan para resolver problemas relacionados con estructuras de árboles, como encontrar el ancestro común más cercano y realizar búsquedas en profundidad o amplitud.
+
+* Algoritmos de recursión: estos algoritmos resuelven un problema al dividirlo en subproblemas más pequeños y resolviéndolos recursivamente.
+
+* Algoritmos de backtracking: estos algoritmos prueban todas las soluciones posibles para un problema hasta encontrar la solución correcta.
+
+* Algoritmos de hashing: estos algoritmos se utilizan para buscar datos en una tabla hash, que es una estructura de datos que permite un acceso rápido a los elementos.
 
 ## Algoritmos de Ordenamiento
 
