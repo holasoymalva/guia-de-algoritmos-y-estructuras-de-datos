@@ -11,7 +11,7 @@
     * [Algoritmos de Ordenamiento](#algoritmos-de-ordenamiento)
     * [Algoritmos de Busqueda](#algoritmos-de-busqueda)
     * [Estructura de Datos](#estructuras-de-datos)
-* [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#js-)
+* [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#javascript-)
 * [Algoritmos y Estructura de datos en Python](https://github.com/malvabombom/curso-de-algoritmos#python-)
 * [Algoritmos y Estructura de datos en Golang](https://github.com/malvabombom/curso-de-algoritmos#golang-)
 * [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
@@ -145,7 +145,7 @@ Las estructuras de datos son importantes porque permiten a los programas manejar
 Es importante que los programadores conozcan las diferentes estructuras de datos y cómo se utilizan para diseñar programas efectivos y eficientes. Con una comprensión sólida de las estructuras de datos, los programadores pueden seleccionar la estructura adecuada para un problema y escribir programas más eficientes y elegantes.
 
 
-## [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
+## [Javascript](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/03-javascript) 🍌
 
 * Algoritmos de Ordenamiento
   * Burbuja
