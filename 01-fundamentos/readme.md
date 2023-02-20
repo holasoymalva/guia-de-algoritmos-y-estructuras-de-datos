@@ -109,6 +109,17 @@ Los algoritmos de ordenamiento son una parte importante de la programación y se
 
 ## Algoritmos de Busqueda
 
+Los algoritmos de búsqueda son procedimientos utilizados para encontrar elementos específicos dentro de una colección de datos, como una lista, un árbol, un grafo, una matriz o cualquier otra estructura de datos. Los algoritmos de búsqueda se utilizan ampliamente en la programación y se aplican en muchos campos, como la informática, la electrónica, la matemática, la física, la biología y la ingeniería.
+
+El objetivo principal de los algoritmos de búsqueda es encontrar uno o varios elementos dentro de una estructura de datos en función de un criterio de búsqueda específico. Algunos de los algoritmos de búsqueda más comunes incluyen la búsqueda lineal (o secuencial) y la búsqueda binaria.
+
+Existen muchos algoritmos de búsqueda que se utilizan en diferentes situaciones y problemas específicos, cada uno con sus propias ventajas y desventajas en términos de eficiencia, complejidad y facilidad de implementación. Los algoritmos de búsqueda son una parte fundamental de la programación y son utilizados en una amplia variedad de aplicaciones, desde la búsqueda de archivos en un sistema de archivos hasta la búsqueda de soluciones óptimas en problemas de inteligencia artificial y aprendizaje automático.
 
 ## Estructuras de Datos
+
+Las estructuras de datos son formas organizadas y eficientes de almacenar y manipular datos en un programa. Son un concepto fundamental en la programación y se utilizan para representar información en una variedad de formas, como listas, árboles, grafos, colas, pilas, entre otras.
+
+Las estructuras de datos son importantes porque permiten a los programas manejar grandes cantidades de información de manera eficiente, lo que puede mejorar el rendimiento y la velocidad de un programa. Además, las estructuras de datos pueden ser utilizadas para resolver una variedad de problemas y tareas en la programación, como búsquedas, clasificaciones, inserciones, eliminaciones, entre otras.
+
+Es importante que los programadores conozcan las diferentes estructuras de datos y cómo se utilizan para diseñar programas efectivos y eficientes. Con una comprensión sólida de las estructuras de datos, los programadores pueden seleccionar la estructura adecuada para un problema y escribir programas más eficientes y elegantes.
 
