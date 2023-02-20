@@ -13,7 +13,6 @@
     * [Estructura de Datos](#estructuras-de-datos)
 * [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#js-)
 * [Algoritmos y Estructura de datos en Python](https://github.com/malvabombom/curso-de-algoritmos#python-)
-* [Algoritmos y Estructura de datos en Swift](https://github.com/malvabombom/curso-de-algoritmos#java-)
 * [Algoritmos y Estructura de datos en Golang](https://github.com/malvabombom/curso-de-algoritmos#golang-)
 * [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
 * [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
@@ -147,6 +146,7 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
 
 
 ## [JS](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/javascript) 🍌
+
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
@@ -154,8 +154,10 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
   * Merge
   * QuickSort
   * Analisis de Algoritmos de ordemamiento
+
 * Algoritmos de Busqueda
     * Busqueda Binaria
+
 * Estructura de Datos
   * Arreglos
   * Listas
@@ -166,6 +168,7 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
   * Hash Tables
   * Arboles
   * Grafos
+  * Analisis de Estructuras de datos
   
 ## [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python) 🐍
 
@@ -176,8 +179,10 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
   * Merge
   * QuickSort
   * Analisis de Algoritmos de ordemamiento
+  
 * Algoritmos de Busqueda
     * Busqueda Binaria
+    
 * Estructura de Datos
   * Arreglos
   * Listas
@@ -188,19 +193,10 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
   * Hash Tables
   * Arboles
   * Grafos
+  * Analisis de Estructuras de datos
 
 
 ## [Golang](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/golang) 🫐
-
-* Introduccion a los algoritmos
-* Estrategias de resolucion de problemas
-  * Divide y venceras
-  * Fuerza bruta
-  * Recursion
-
-* Big O notation
-  * Complegidad de procesamiento.
-  * Complegidad de Memoria.
 
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -224,37 +220,6 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
   * Arboles
   * Grafos
   * Analisis de Estructuras de datos
-
-* Pruebas tecnicas en Golang
-  * Formato de las entrevistas laborales
-  * Formato de las pruebas tecnicas
-  * Pruebas basicas
-  * Pruebas intermedias
-  * Pruebas avanzadas
- 
-
-
-## [Swift](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/java) ☕️
-
-* Algoritmos de Ordenamiento
-  * Burbuja
-  * Binaria
-  * Selection
-  * Merge
-  * QuickSort
-  * Analisis de Algoritmos de ordemamiento
-* Algoritmos de Busqueda
-    * Busqueda Binaria
-* Estructura de Datos
-  * Arreglos
-  * Listas
-  * Listas Enlazadas
-  * Pilas
-  * Colas
-  * Listas Doblemente Enlazadas
-  * Hash Tables
-  * Arboles
-  * Grafos
 
 ## Bibliografia 📚
 
