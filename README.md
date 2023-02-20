@@ -302,19 +302,17 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Author
-Created by Malvabombom.
+Created by HolaSoyMalva.
 
-[![in]][in-link] [![ig]][ig-link] [![tt]][tt-link]
+[![ig]][ig-link] [![tt]][tt-link]
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-[in]: https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white
 [ig]: https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white
 [fb]: https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white
 [tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
 
-[in-link]: https://www.linkedin.com/in/martin-manriquez-899877177/
 [ig-link]: https://www.instagram.com/malvabombom/
 [tt-link]: https://www.tiktok.com/@malvabombom
