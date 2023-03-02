@@ -4,7 +4,7 @@
 
 ### Burbuja
 
-###Insercion
+### Insercion
 
 ### Selection
 
