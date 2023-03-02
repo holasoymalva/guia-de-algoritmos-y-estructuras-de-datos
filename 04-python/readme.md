@@ -4,15 +4,11 @@
 
 ### Burbuja
 
-### Binaria
+###Insercion
 
 ### Selection
 
-### Merge
-
 ### QuickSort
-
-### Analisis de Algoritmos de ordemamiento
 
 # Algoritmos de Busqueda
 
