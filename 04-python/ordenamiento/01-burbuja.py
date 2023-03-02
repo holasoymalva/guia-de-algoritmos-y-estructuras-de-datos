@@ -1,16 +1,18 @@
-def ordenamientoBurbuja(arr):
-    n = len(arr)
-    intercambios = False
-    for i in range(n - 1):
-        for j in range(0, n - i - 1):
-            if arr[j] > arr[j + 1]:
-                intercambios = True
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-        if not intercambios:
-            return
-    return arr
-arr = [5,3,2,4,8];
+
+# Inputs
+nums = [5,3,8,4,6]
+
+def ordenamientoBurbuja(array):
+    n = len(array)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if array[j]> array[j+1]:
+                array[j], array[j+1] = array[j+1], array[j]
+                # temp = array[j]
+                # array[j] = array[j+1]
+                # array[j+1] = temp
+    return array
+
+print( ordenamientoBurbuja(nums))
 
 
-nums = ordenamientoBurbuja(arr);
-print(nums);
