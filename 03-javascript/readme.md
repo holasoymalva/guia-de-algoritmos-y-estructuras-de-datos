@@ -35,27 +35,153 @@ Las notas de Algoritmos en JavaScript proporcionan una guía para aprender los c
 
 ```javascript
 
-function burbuja(nums) {
-  return 0;
+// input 
+const arreglo1 = [5,3,8,4,6];
+const arreglo2 = [5,3,8,4,6];
+
+const swap = function(arr, posicion1, posicion2){
+    let temp = arr[posicion1];
+    arr[posicion1] = arr[posicion2];
+    arr[posicion2] = temp;
 }
 
-let numeros = [3,1,20,2,15,9,4];
-
-burbuja(numeros);
+const ordenamientoBurbuja = function(arr){
+    let i, j;
+    for ( i = 0; i < arr.length; i++) {
+        for(j = 0; j< arr.length - i -1; j++ ){
+            if (arr[j] > arr[j+1]) {
+                swap(arr,j, j+1);
+            }
+        }
+    }
+    return arr;
+}
 ```
 
 ### Selection
 
-### Merge
+
+```javascript
+
+// Input 
+let nums = [72,50,10,44,8,20];
+
+function swap(arr, primerPosicion, segundaPosicion){
+    [72,50,10,44,8,20]
+    //primerPosicion = 0;
+    let temp = arr[primerPosicion]; // 72
+    arr[primerPosicion] = arr[segundaPosicion]; // 8
+    arr[segundaPosicion] = temp;
+}
+
+function ordenamientoSeleccion( nums ){
+    let i, j, min;
+    for (i = 0; i < nums.length; i++) {
+        min = i;
+        for(j = i +1; j< nums.length; j++)
+            if(nums[j]< nums[min])
+                min = j;
+        swap(nums,min,i);
+    }
+    return nums;
+}
+
+let demo = ordenamientoSeleccion(nums);
+
+console.log(demo);
+
+```
+### Insertion
+
+```javascript
+// Input
+const arreglo = [8,4,6,3,1,9,5];
+
+function ordenamientoPorInsercion(array){
+    let i, key, j;
+    for (i = 0; i < array.length; i++) {
+        key = array[i];
+        j =  i - 1;
+
+        while(j >= 0 && array[j] > key){
+            array[j+1] = array[j];
+            j = j - 1;
+        }
+        array[j + 1] = key;
+    }
+    console.log(array);
+}
+
+console.log(arreglo);
+ordenamientoPorInsercion(arreglo);
+```
+
 
 ### QuickSort
+
+``` javascript
+
+
+function quicksort(array){
+    console.log(array);
+    if( array.length <= 1){
+        return array;
+    } else {
+        let pivot = array[0];
+        let left = [];
+        let right = [];
+        let i;
+        for (i = 1; i < array.length; i++) {
+           if (array[i] < pivot) {
+                left.push(array[i]);
+           } else{
+                right.push(array[i]);
+           }
+        }
+        return quicksort(left).concat(pivot, quicksort(right));
+    }
+}
+
+// Input
+let nums = [38,27, 43, 3,9,82,10];
+
+let test = [ 3,  9, 10, 27, 38, 43, 82];
+
+let numOrdenados = quicksort(nums);
+
+console.log(test);
+console.log(numOrdenados);
+```
+
 
 ### Analisis de Algoritmos de ordemamiento
 
 # Algoritmos de Busqueda
 
-### Busqueda Binaria
 
+### Busqueda Lineal
+```javascript
+function busquedaLineal(nums, value){
+  let counter;
+  nums.forEach(num => {
+    counter += 1;
+    if(num === value){
+      return nums[counter];
+    }
+  });
+  return -1;
+}
+// Inputs
+const values = [1,2,3,4,5,6,7];
+const valueToFind = 8;
+
+console.log(busquedaLineal(values, valueToFind));
+```
+
+### Busqueda Binaria
+```javascript
+
+```
 # Estructura de Datos
 
 ### Arreglos
