@@ -16,3 +16,13 @@ def fibonacci(n):
     return secuencia
 
 print(fibonacci(10))
+
+def fibo_recursiva(n):
+    if n <= 1:
+        return n
+    else:
+        return fibo_recursiva(n-1)+fibo_recursiva(n-2)
+    
+for i in range(10):
+    print(fibo_recursiva(i))
+
