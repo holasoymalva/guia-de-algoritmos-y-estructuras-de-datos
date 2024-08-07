@@ -29,11 +29,12 @@ Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
 ```javascript
    function linearSearch(arr, target) {
        for (let i = 0; i < arr.length; i++) {
+           // Compara cada elemento con el objetivo
            if (arr[i] === target) {
-               return i;
+               return i; // Devuelve el índice si encuentra el objetivo
            }
        }
-       return -1;
+       return -1; // Devuelve -1 si el objetivo no está en el arreglo
    }
 ```
 
@@ -47,14 +48,14 @@ function binarySearch(arr, target) {
     while (left <= right) {
         const mid = Math.floor((left + right) / 2);
         if (arr[mid] === target) {
-            return mid;
+            return mid; // Devuelve el índice si encuentra el objetivo
         } else if (arr[mid] < target) {
-            left = mid + 1;
+            left = mid + 1; // Descarta la mitad izquierda
         } else {
-            right = mid - 1;
+            right = mid - 1; // Descarta la mitad derecha
         }
     }
-    return -1;
+    return -1; // Devuelve -1 si el objetivo no está en el arreglo
 }
 ```
 
@@ -64,17 +65,18 @@ function binarySearch(arr, target) {
 ```javascript
 function selectionSort(arr) {
     for (let i = 0; i < arr.length; i++) {
-        let minIndex = i;
+        let minIndex = i; // Asume que el primer elemento es el mínimo
         for (let j = i + 1; j < arr.length; j++) {
             if (arr[j] < arr[minIndex]) {
-                minIndex = j;
+                minIndex = j; // Encuentra el índice del menor valor
             }
         }
         if (minIndex !== i) {
+            // Intercambia el elemento más pequeño encontrado con el actual
             [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
         }
     }
-    return arr;
+    return arr; // Devuelve el arreglo ordenado
 }
 ```
 
@@ -82,22 +84,23 @@ function selectionSort(arr) {
 **Algoritmo de ordenamiento rápido (QuickSort):** Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
 
 ```javascript
-  function quickSort(arr) {
-    if (arr.length <= 1) {
-        return arr;
-    }
-    const pivot = arr[arr.length - 1];
-    const left = [];
-    const right = [];
-    for (let i = 0; i < arr.length - 1; i++) {
-        if (arr[i] < pivot) {
-            left.push(arr[i]);
-        } else {
-            right.push(arr[i]);
-        }
-    }
-    return [...quickSort(left), pivot, ...quickSort(right)];
-}
+   function quickSort(arr) {
+       if (arr.length <= 1) {
+           return arr; // Un arreglo de un elemento está ordenado
+       }
+       const pivot = arr[arr.length - 1]; // Usa el último elemento como pivote
+       const left = [];
+       const right = [];
+       for (let i = 0; i < arr.length - 1; i++) {
+           if (arr[i] < pivot) {
+               left.push(arr[i]); // Elementos menores al pivote
+           } else {
+               right.push(arr[i]); // Elementos mayores al pivote
+           }
+       }
+       // Concatena los arreglos ordenados con el pivote en el medio
+       return [...quickSort(left), pivot, ...quickSort(right)];
+   }
 ```
 
 Estos son solo algunos ejemplos de la Notación Big O en JavaScript. Al comprender y aplicar esta notación, los programadores pueden mejorar el rendimiento y la eficiencia de sus algoritmos y soluciones de programación.
@@ -121,11 +124,12 @@ En este ejemplo, se utiliza un array para almacenar todos los números de Fibona
 
 ```javascript
 function fibonacciArray(n) {
-    const fib = [0, 1];
+    const fib = [0, 1]; // Inicializa los primeros dos números de Fibonacci
     for (let i = 2; i <= n; i++) {
+        // Calcula cada número de Fibonacci y lo almacena en el arreglo
         fib[i] = fib[i - 1] + fib[i - 2];
     }
-    return fib[n];
+    return fib[n]; // Devuelve el n-ésimo número de Fibonacci
 }
 
 console.log(fibonacciArray(10)); // Output: 55
@@ -135,13 +139,13 @@ En esta implementación, solo se utilizan variables temporales para calcular el 
 
 ```javascript
 function fibonacciEfficient(n) {
-    let a = 0, b = 1, temp;
+    let a = 0, b = 1, temp; // Variables para almacenar los dos últimos números de Fibonacci
     for (let i = 2; i <= n; i++) {
-        temp = a + b;
-        a = b;
-        b = temp;
+        temp = a + b; // Calcula el siguiente número de Fibonacci
+        a = b; // Desplaza los números hacia adelante
+        b = temp; // Asigna el nuevo número de Fibonacci a b
     }
-    return b;
+    return b; // Devuelve el n-ésimo número de Fibonacci
 }
 
 console.log(fibonacciEfficient(10)); // Output: 55
@@ -182,18 +186,19 @@ En el análisis de algoritmos, los patrones de resolución de problemas son un c
 ```javascript
 function mergeSort(arr) {
     if (arr.length <= 1) {
-        return arr;
+        return arr; // Un arreglo de un solo elemento ya está ordenado
     }
-    const mid = Math.floor(arr.length / 2);
-    const left = mergeSort(arr.slice(0, mid));
-    const right = mergeSort(arr.slice(mid));
-    return merge(left, right);
+    const mid = Math.floor(arr.length / 2); // Encuentra el punto medio del arreglo
+    const left = mergeSort(arr.slice(0, mid)); // Ordena la mitad izquierda
+    const right = mergeSort(arr.slice(mid)); // Ordena la mitad derecha
+    return merge(left, right); // Combina las mitades ordenadas
 }
 
 function merge(left, right) {
     let result = [];
     let i = 0;
     let j = 0;
+    // Combina los elementos de izquierda y derecha en orden
     while (i < left.length && j < right.length) {
         if (left[i] < right[j]) {
             result.push(left[i]);
@@ -203,6 +208,7 @@ function merge(left, right) {
             j++;
         }
     }
+    // Concatena los elementos restantes
     return result.concat(left.slice(i)).concat(right.slice(j));
 }
 ```
@@ -211,14 +217,15 @@ function merge(left, right) {
 
 ```javascript
 function findTwoSum(arr, target) {
+    // Compara cada par de elementos para encontrar los que sumen el objetivo
     for (let i = 0; i < arr.length; i++) {
         for (let j = i + 1; j < arr.length; j++) {
             if (arr[i] + arr[j] === target) {
-                return [i, j];
+                return [i, j]; // Devuelve los índices de los elementos que suman el objetivo
             }
         }
     }
-    return null;
+    return null; // Devuelve null si no se encuentra una solución
 }
 ```
 
@@ -227,20 +234,20 @@ function findTwoSum(arr, target) {
 ```javascript
 function solveNQueens(n) {
     const solutions = [];
-    solve([], 0, n, solutions);
-    return solutions;
+    solve([], 0, n, solutions); // Comienza el proceso de solución
+    return solutions; // Devuelve todas las soluciones encontradas
 }
 
 function solve(board, row, n, solutions) {
     if (row === n) {
-        solutions.push([...board]);
+        solutions.push([...board]); // Guarda una copia de la solución actual
         return;
     }
     for (let col = 0; col < n; col++) {
         if (isValid(board, row, col)) {
-            board.push(col);
-            solve(board, row + 1, n, solutions);
-            board.pop();
+            board.push(col); // Añade la reina en la columna actual
+            solve(board, row + 1, n, solutions); // Intenta resolver el siguiente nivel
+            board.pop(); // Remueve la reina y retrocede
         }
     }
 }
@@ -248,6 +255,7 @@ function solve(board, row, n, solutions) {
 function isValid(board, row, col) {
     for (let i = 0; i < row; i++) {
         const prevCol = board[i];
+        // Verifica que la posición no esté amenazada
         if (prevCol === col || Math.abs(prevCol - col) === row - i) {
             return false;
         }
@@ -260,11 +268,12 @@ function isValid(board, row, col) {
 
 ```javascript
 function fibonacci(n) {
-    const memo = [0, 1];
+    const memo = [0, 1]; // Almacena los primeros números de Fibonacci
     for (let i = 2; i <= n; i++) {
+        // Calcula cada número de Fibonacci basado en los dos anteriores
         memo[i] = memo[i - 1] + memo[i - 2];
     }
-    return memo[n];
+    return memo[n]; // Devuelve el n-ésimo número de Fibonacci
 }
 ```
 
@@ -272,15 +281,16 @@ function fibonacci(n) {
 
 ```javascript
 function coinChange(coins, amount) {
-    coins.sort((a, b) => b - a);
+    coins.sort((a, b) => b - a); // Ordena las monedas de mayor a menor
     let totalCoins = 0;
     for (let i = 0; i < coins.length; i++) {
         if (amount === 0) break;
+        // Calcula cuántas monedas del valor actual se pueden usar
         const currentCoinCount = Math.floor(amount / coins[i]);
-        totalCoins += currentCoinCount;
-        amount -= currentCoinCount * coins[i];
+        totalCoins += currentCoinCount; // Añade estas monedas al total
+        amount -= currentCoinCount * coins[i]; // Reduce el monto restante
     }
-    return amount === 0 ? totalCoins : -1;
+    return amount === 0 ? totalCoins : -1; // Devuelve el número total de monedas o -1 si no es posible
 }
 ```
 
@@ -322,12 +332,13 @@ function bubbleSort(arr) {
         swapped = false;
         for (let i = 0; i < arr.length - 1; i++) {
             if (arr[i] > arr[i + 1]) {
+                // Intercambia elementos adyacentes si están en el orden incorrecto
                 [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
-                swapped = true;
+                swapped = true; // Marca que se ha realizado un intercambio
             }
         }
-    } while (swapped);
-    return arr;
+    } while (swapped); // Repite el proceso hasta que no se realicen intercambios
+    return arr; // Devuelve el arreglo ordenado
 }
 ```
 
@@ -344,10 +355,10 @@ El objetivo principal de los algoritmos de búsqueda es encontrar uno o varios e
 function linearSearch(arr, target) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === target) {
-            return i;
+            return i; // Devuelve el índice si encuentra el objetivo
         }
     }
-    return -1;
+    return -1; // Devuelve -1 si el objetivo no está en el arreglo
 }
 ```
 
@@ -361,26 +372,26 @@ Las estructuras de datos son formas organizadas y eficientes de almacenar y mani
 // Ejemplo de estructura de datos de pila (stack)
 class Stack {
     constructor() {
-        this.items = [];
+        this.items = []; // Arreglo para almacenar los elementos de la pila
     }
 
     push(element) {
-        this.items.push(element);
+        this.items.push(element); // Añade un elemento al final de la pila
     }
 
     pop() {
         if (this.isEmpty()) {
-            return "Underflow";
+            return "Underflow"; // Devuelve un mensaje si la pila está vacía
         }
-        return this.items.pop();
+        return this.items.pop(); // Elimina y devuelve el último elemento de la pila
     }
 
     peek() {
-        return this.items[this.items.length - 1];
+        return this.items[this.items.length - 1]; // Devuelve el último elemento sin eliminarlo
     }
 
     isEmpty() {
-        return this.items.length === 0;
+        return this.items.length === 0; // Devuelve true si la pila está vacía
     }
 }
 ```
