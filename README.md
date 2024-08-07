@@ -13,7 +13,6 @@
     * [Estructura de Datos](./01-fundamentos#estructuras-de-datos)
 * [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#javascript-)
 * [Algoritmos y Estructura de datos en Python](https://github.com/malvabombom/curso-de-algoritmos#python-)
-* [Algoritmos y Estructura de datos en Golang](https://github.com/malvabombom/curso-de-algoritmos#golang-)
 * [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
 * [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
 
