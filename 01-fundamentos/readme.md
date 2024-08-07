@@ -25,11 +25,76 @@ Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
 
 * Algoritmo de búsqueda lineal: Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada elemento en una secuencia hasta encontrar una coincidencia.
 
+```javascript
+   function linearSearch(arr, target) {
+       for (let i = 0; i < arr.length; i++) {
+           if (arr[i] === target) {
+               return i;
+           }
+       }
+       return -1;
+   }
+```
+
 * Algoritmo de búsqueda binaria: Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
+
+```javascript
+function binarySearch(arr, target) {
+    let left = 0;
+    let right = arr.length - 1;
+    while (left <= right) {
+        const mid = Math.floor((left + right) / 2);
+        if (arr[mid] === target) {
+            return mid;
+        } else if (arr[mid] < target) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    return -1;
+}
+```
 
 * Algoritmo de ordenamiento por selección: Este algoritmo tiene una complejidad temporal de O(n^2), ya que debe comparar cada elemento con todos los demás para encontrar el mínimo y moverlo a su posición final en la secuencia.
 
+```javascript
+function selectionSort(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        let minIndex = i;
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[j] < arr[minIndex]) {
+                minIndex = j;
+            }
+        }
+        if (minIndex !== i) {
+            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];
+        }
+    }
+    return arr;
+}
+```
+
 * Algoritmo de ordenamiento rápido (QuickSort): Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
+
+```javascript
+  function quickSort(arr) {
+    if (arr.length <= 1) {
+        return arr;
+    }
+    const pivot = arr[arr.length - 1];
+    const left = [];
+    const right = [];
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] < pivot) {
+            left.push(arr[i]);
+        } else {
+            right.push(arr[i]);
+        }
+    }
+    return [...quickSort(left), pivot, ...quickSort(right)];
+}
+```
 
 Estos son solo algunos ejemplos de la Notación Big O en JavaScript. Al comprender y aplicar esta notación, los programadores pueden mejorar el rendimiento y la eficiencia de sus algoritmos y soluciones de programación.
 
@@ -66,15 +131,113 @@ La resolución de problemas en el análisis de algoritmos es una habilidad esenc
 
 En el análisis de algoritmos, los patrones de resolución de problemas son un conjunto de técnicas y estrategias que se utilizan para abordar y solucionar un problema de manera eficiente. Algunos de los patrones de resolución de problemas más comunes incluyen:
 
-* Divide y vencerás: Este patrón se enfoca en dividir un problema grande en problemas más pequeños y manejables, y luego resolver cada uno de ellos por separado.
+* **Divide y vencerás**: Este patrón se enfoca en dividir un problema grande en problemas más pequeños y manejables, y luego resolver cada uno de ellos por separado.
 
-* Fuerza bruta: Este patrón se enfoca en probar todas las posibles soluciones hasta encontrar la correcta. Es una estrategia simple, pero puede ser ineficiente si el problema es muy grande o complejo.
 
-* Backtracking: Este patrón se enfoca en retroceder y cambiar decisiones previas cuando se llega a un punto en el que se sabe que la solución actual no es viable.
+```javascript
+function mergeSort(arr) {
+    if (arr.length <= 1) {
+        return arr;
+    }
+    const mid = Math.floor(arr.length / 2);
+    const left = mergeSort(arr.slice(0, mid));
+    const right = mergeSort(arr.slice(mid));
+    return merge(left, right);
+}
 
-* Programación dinámica: Este patrón se enfoca en resolver subproblemas repetitivos de manera eficiente al almacenar y reutilizar soluciones previas.
+function merge(left, right) {
+    let result = [];
+    let i = 0;
+    let j = 0;
+    while (i < left.length && j < right.length) {
+        if (left[i] < right[j]) {
+            result.push(left[i]);
+            i++;
+        } else {
+            result.push(right[j]);
+            j++;
+        }
+    }
+    return result.concat(left.slice(i)).concat(right.slice(j));
+}
+```
 
-* Greedy Algorithm: Este patrón se enfoca en tomar decisiones a corto plazo en busca de una solución óptima.
+* **Fuerza bruta**: Este patrón se enfoca en probar todas las posibles soluciones hasta encontrar la correcta. Es una estrategia simple, pero puede ser ineficiente si el problema es muy grande o complejo.
+
+```javascript
+function findTwoSum(arr, target) {
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            if (arr[i] + arr[j] === target) {
+                return [i, j];
+            }
+        }
+    }
+    return null;
+}
+```
+
+* **Backtracking**: Este patrón se enfoca en retroceder y cambiar decisiones previas cuando se llega a un punto en el que se sabe que la solución actual no es viable.
+
+```javascript
+function solveNQueens(n) {
+    const solutions = [];
+    solve([], 0, n, solutions);
+    return solutions;
+}
+
+function solve(board, row, n, solutions) {
+    if (row === n) {
+        solutions.push([...board]);
+        return;
+    }
+    for (let col = 0; col < n; col++) {
+        if (isValid(board, row, col)) {
+            board.push(col);
+            solve(board, row + 1, n, solutions);
+            board.pop();
+        }
+    }
+}
+
+function isValid(board, row, col) {
+    for (let i = 0; i < row; i++) {
+        const prevCol = board[i];
+        if (prevCol === col || Math.abs(prevCol - col) === row - i) {
+            return false;
+        }
+    }
+    return true;
+}
+```
+
+* **Programación dinámica**: Este patrón se enfoca en resolver subproblemas repetitivos de manera eficiente al almacenar y reutilizar soluciones previas.
+
+```javascript
+function fibonacci(n) {
+    const memo = [0, 1];
+    for (let i = 2; i <= n; i++) {
+        memo[i] = memo[i - 1] + memo[i - 2];
+    }
+    return memo[n];
+}
+```
+
+* **Greedy Algorithm**: Este patrón se enfoca en tomar decisiones a corto plazo en busca de una solución óptima.
+
+```javascript
+function coinChange(coins, amount) {
+    coins.sort((a, b) => b - a);
+    let totalCoins = 0;
+    for (let i = 0; i < coins.length; i++) {
+        if (amount === 0) break;
+        const currentCoinCount = Math.floor(amount / coins[i]);
+        totalCoins += currentCoinCount;
+        amount -= currentCoinCount * coins[i];
+    }
+    return amount === 0 ? totalCoins : -1;
+}
+```
 
 Estos son solo algunos de los patrones de resolución de problemas más comunes en el análisis de algoritmos. Con el tiempo, los programadores y los investigadores en la materia continúan desarrollando y mejorando estos patrones para hacer frente a problemas más complejos.
 
@@ -82,20 +245,21 @@ Estos son solo algunos de los patrones de resolución de problemas más comunes 
 
 Existen varios tipos de algoritmos computacionales, algunos de los cuales son los siguientes:
 
-* Algoritmos de ordenamiento: como se mencionó anteriormente, estos algoritmos organizan una lista de elementos en un orden determinado.
+* **Algoritmos de ordenamiento**: como se mencionó anteriormente, estos algoritmos organizan una lista de elementos en un orden determinado.
 
-* Algoritmos de búsqueda: estos algoritmos encuentran un elemento específico en una lista o conjunto de datos.
+* **Algoritmos de búsqueda**: estos algoritmos encuentran un elemento específico en una lista o conjunto de datos.
 
-* Algoritmos de grafos: estos algoritmos se utilizan para resolver problemas relacionados con estructuras de grafos, como encontrar rutas óptimas, detectar ciclos y encontrar caminos más cortos.
+* **Algoritmos de grafos**: estos algoritmos se utilizan para resolver problemas relacionados con estructuras de grafos, como encontrar rutas óptimas, detectar ciclos y encontrar caminos más cortos.
 
-* Algoritmos de árboles: estos algoritmos se utilizan para resolver problemas relacionados con estructuras de árboles, como encontrar el ancestro común más cercano y realizar búsquedas en profundidad o amplitud.
+* **Algoritmos de árboles**: estos algoritmos se utilizan para resolver problemas relacionados con estructuras de árboles, como encontrar el ancestro común más cercano y realizar búsquedas en profundidad o amplitud.
 
-* Algoritmos de recursión: estos algoritmos resuelven un problema al dividirlo en subproblemas más pequeños y resolviéndolos recursivamente.
+* **Algoritmos de recursión**: estos algoritmos resuelven un problema al dividirlo en subproblemas más pequeños y resolviéndolos recursivamente.
 
-* Algoritmos de backtracking: estos algoritmos prueban todas las soluciones posibles para un problema hasta encontrar la solución correcta.
+* **Algoritmos de backtracking**: estos algoritmos prueban todas las soluciones posibles para un problema hasta encontrar la solución correcta.
 
-* Algoritmos de hashing: estos algoritmos se utilizan para buscar datos en una tabla hash, que es una estructura de datos que permite un acceso rápido a los elementos.
-* Algoritmos de cifrado: estos algoritmos se utilizan para proteger la privacidad y la seguridad de los datos, como en la criptografía y la seguridad informática.
+* **Algoritmos de hashing**: estos algoritmos se utilizan para buscar datos en una tabla hash, que es una estructura de datos que permite un acceso rápido a los elementos.
+
+* **Algoritmos de cifrado**: estos algoritmos se utilizan para proteger la privacidad y la seguridad de los datos, como en la criptografía y la seguridad informática.
 
 Estos son solo algunos ejemplos de los tipos de algoritmos que existen. Cada tipo de algoritmo se adapta a diferentes necesidades y problemas específicos.
 
@@ -118,6 +282,34 @@ Existen muchos algoritmos de búsqueda que se utilizan en diferentes situaciones
 ## Estructuras de Datos
 
 Las estructuras de datos son formas organizadas y eficientes de almacenar y manipular datos en un programa. Son un concepto fundamental en la programación y se utilizan para representar información en una variedad de formas, como listas, árboles, grafos, colas, pilas, entre otras.
+
+```javascript
+// Ejemplo de estructura de datos de pila (stack)
+class Stack {
+    constructor() {
+        this.items = [];
+    }
+
+    push(element) {
+        this.items.push(element);
+    }
+
+    pop() {
+        if (this.isEmpty()) {
+            return "Underflow";
+        }
+        return this.items.pop();
+    }
+
+    peek() {
+        return this.items[this.items.length - 1];
+    }
+
+    isEmpty() {
+        return this.items.length === 0;
+    }
+}
+```
 
 Las estructuras de datos son importantes porque permiten a los programas manejar grandes cantidades de información de manera eficiente, lo que puede mejorar el rendimiento y la velocidad de un programa. Además, las estructuras de datos pueden ser utilizadas para resolver una variedad de problemas y tareas en la programación, como búsquedas, clasificaciones, inserciones, eliminaciones, entre otras.
 
