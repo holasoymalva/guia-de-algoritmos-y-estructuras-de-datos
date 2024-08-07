@@ -1,4 +1,4 @@
-# Curso de algoritmos y estructuras de datos. 🧮
+# Guia de algoritmos y estructuras de datos. 🧮
 Hola quiero darte la bienvenida a este recurso donde encontraras una serie de notas, ejemplos y ejercicios para conocer mas a detalle como funcionan los algoritmos y las estructuras de datos. Estos temas en particular son uno de los pilares al aprender a programar, ya que nos ayudar a entender como resolver problemas y desarrollar nuestra logica de programacion. Espero lo disfrutes 🙌
 
 ## INDICE :
