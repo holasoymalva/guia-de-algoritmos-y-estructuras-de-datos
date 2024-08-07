@@ -114,7 +114,7 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
 Los contribuciones son todas bienvenidas. Se aceptan desde correcciones ortograficas, ejemplos de codigo, propuestas de retos de programacion y peticiones para agregar o desarrollar los temas que consideres necesarios. Para esto solo seria necesario clonar el repositorio, y hacer un PR con los cambios sugeridos.
 
 ## Authors 
-Created by : [HolaSoyMalva]([HolaSoyMalva](https://github.com/holasoymalva).
+Created by : [HolaSoyMalva](https://github.com/holasoymalva).
 
 [![ig]][ig-link] [![tt]][tt-link]
 
