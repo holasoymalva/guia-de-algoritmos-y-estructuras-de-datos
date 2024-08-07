@@ -162,7 +162,7 @@ El análisis de algoritmos de ordenamiento involucra evaluar su eficiencia en t�
 3. **Ordenamiento por Inserción**: **O(n²)** en el peor y promedio de los casos, O(n) en el mejor de los casos cuando el arreglo ya está ordenado.
 4. **QuickSort**: **O(n log n)** en promedio, pero O(n²) en el peor de los casos si el pivote es siempre el mayor o menor elemento. QuickSort es generalmente eficiente y se utiliza ampliamente debido a su buen rendimiento promedio.
 
-# Algoritmos de Busqueda
+## Algoritmos de Busqueda
 
 ### Búsqueda Lineal
 
