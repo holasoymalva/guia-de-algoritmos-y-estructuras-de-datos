@@ -13,7 +13,8 @@ Las notas de Algoritmos en JavaScript proporcionan una guía para aprender los c
   * Analisis de Algoritmos de ordemamiento
 
 * Algoritmos de Busqueda
-    * Busqueda Binaria
+  * Busqueda Lineal
+  * Busqueda Binaria
 
 * Estructura de Datos
   * Arreglos
