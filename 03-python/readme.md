@@ -9,7 +9,7 @@ Las notas de algoritmos en Python proporcionan una guía para aprender los conce
   * [Selection](#selection)
   * [Insertion](#insertion)
   * [QuickSort](#quicksort)
-  * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordenamiento)
+  * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordemamiento)
 
 * Algoritmos de Búsqueda
   * [Búsqueda Lineal](#busqueda-lineal)
