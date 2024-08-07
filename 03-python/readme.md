@@ -123,7 +123,7 @@ El análisis de algoritmos de ordenamiento involucra evaluar su eficiencia en t�
 
 ## Algoritmos de Busqueda
 
-### Búsqueda Lineal
+### Busqueda Lineal
 
 La búsqueda lineal es un método simple para encontrar un elemento en una lista. Recorre cada elemento de la lista de principio a fin y compara cada elemento con el valor que se busca hasta que encuentra una coincidencia o llega al final de la lista.
 
