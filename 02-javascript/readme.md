@@ -30,9 +30,6 @@ Las notas de Algoritmos en JavaScript proporcionan una guía para aprender los c
 
 ## Algoritmos de Ordenamiento
 
-
-### Burbuja
-
 ### Burbuja
 
 El algoritmo de ordenamiento por burbuja es uno de los algoritmos de ordenamiento más simples. Funciona iterando sobre la lista de elementos y comparando cada par adyacente de elementos. Si un par de elementos está en el orden incorrecto, el algoritmo los intercambia. Este proceso se repite hasta que la lista está ordenada.
