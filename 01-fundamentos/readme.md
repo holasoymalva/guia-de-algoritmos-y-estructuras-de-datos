@@ -111,6 +111,47 @@ La cantidad de memoria que un algoritmo utiliza puede afectar su rendimiento y s
 
 Por lo tanto, es importante tener en cuenta la capacidad de memoria en el análisis de algoritmos para asegurarse de que el algoritmo sea eficiente en términos de memoria y sea capaz de manejar grandes cantidades de datos de manera eficiente.
 
+#### Ejemplo de Capacidad de Memoria en JavaScript
+
+A continuación se presenta un ejemplo que muestra cómo el uso de memoria puede variar entre diferentes implementaciones del mismo algoritmo.
+
+**Implementación utilizando un Array (mayor uso de memoria):**
+
+En este ejemplo, se utiliza un array para almacenar todos los números de Fibonacci calculados, lo cual puede ser costoso en términos de memoria si el tamaño de `n` es grande.
+
+```javascript
+function fibonacciArray(n) {
+    const fib = [0, 1];
+    for (let i = 2; i <= n; i++) {
+        fib[i] = fib[i - 1] + fib[i - 2];
+    }
+    return fib[n];
+}
+
+console.log(fibonacciArray(10)); // Output: 55
+```
+**Implementación utilizando variables temporales (menor uso de memoria):**
+En esta implementación, solo se utilizan variables temporales para calcular el número de Fibonacci, reduciendo significativamente el uso de memoria.
+
+```javascript
+function fibonacciEfficient(n) {
+    let a = 0, b = 1, temp;
+    for (let i = 2; i <= n; i++) {
+        temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return b;
+}
+
+console.log(fibonacciEfficient(10)); // Output: 55
+```
+
+En ambos ejemplos, el algoritmo calcula el número de Fibonacci para un valor `n` dado, pero la segunda implementación es más eficiente en términos de memoria porque no almacena todos los valores intermedios.
+
+Estos ejemplos ilustran cómo diferentes enfoques pueden tener un impacto significativo en la cantidad de memoria utilizada por un algoritmo, afectando su eficiencia general.
+
+
 ## Introduccion a la resolucion de Problemas
 
 La resolución de problemas en el análisis de algoritmos es un proceso sistemático para encontrar una solución óptima a un problema dado. Este proceso implica una evaluación cuidadosa y una comprensión profunda del problema y de los requisitos necesarios para resolverlo de manera efectiva.
