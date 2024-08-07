@@ -1,4 +1,5 @@
 # Curso de algoritmos y estructuras de datos. 🧮
+Hola quiero darte la bienvenida a este recurso donde encontraras una serie de notas, ejemplos y ejercicios para conocer mas a detalle como funcionan los algoritmos y las estructuras de datos. Estos temas en particular son uno de los pilares al aprender a programar, ya que nos ayudar a entender como resolver problemas y desarrollar nuestra logica de programacion. Espero lo disfrutes 🙌
 
 ## INDICE :
 
@@ -110,11 +111,10 @@
 
 ## Contributing 
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+Los contribuciones son todas bienvenidas. Se aceptan desde correcciones ortograficas, ejemplos de codigo, propuestas de retos de programacion y peticiones para agregar o desarrollar los temas que consideres necesarios. Para esto solo seria necesario clonar el repositorio, y hacer un PR con los cambios sugeridos.
 
-## Author
-Created by HolaSoyMalva.
+## Authors 
+Created by : [HolaSoyMalva]([HolaSoyMalva](https://github.com/holasoymalva).
 
 [![ig]][ig-link] [![tt]][tt-link]
 
