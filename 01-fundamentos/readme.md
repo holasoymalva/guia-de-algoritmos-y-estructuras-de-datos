@@ -38,7 +38,7 @@ Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
 ```
 
 ### O(log n) 
-**Algoritmo de búsqueda binaria:**Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
+**Algoritmo de búsqueda binaria:** Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
 
 ```javascript
 function binarySearch(arr, target) {
