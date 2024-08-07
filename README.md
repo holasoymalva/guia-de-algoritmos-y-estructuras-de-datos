@@ -15,7 +15,7 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
     * [Estructura de Datos](./01-fundamentos#estructuras-de-datos)
 * [Algoritmos y Estructura de datos en Javascript](#javascript-)
 * [Algoritmos y Estructura de datos en Python](#python-)
-* Ejercicios de practica
+* Ejercicios de Practica
 * [Material Complementario](#bibliografia-)
 * [Contribuciones abiertas](#contributing)
 
