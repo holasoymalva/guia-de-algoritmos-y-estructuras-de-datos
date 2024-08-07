@@ -12,13 +12,13 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
     * [Algoritmos de Ordenamiento](./01-fundamentos#algoritmos-de-ordenamiento)
     * [Algoritmos de Busqueda](./01-fundamentos#algoritmos-de-busqueda)
     * [Estructura de Datos](./01-fundamentos#estructuras-de-datos)
-* [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#javascript-)
-* [Algoritmos y Estructura de datos en Python](https://github.com/malvabombom/curso-de-algoritmos#python-)
-* [Material Complementario](https://github.com/malvabombom/curso-de-algoritmos#bibliografia-)
-* [Contribuciones abiertas](https://github.com/malvabombom/curso-de-algoritmos#contributing)
+* [Algoritmos y Estructura de datos en Javascript](#javascript-)
+* [Algoritmos y Estructura de datos en Python](#python-)
+* [Material Complementario](#bibliografia-)
+* [Contribuciones abiertas](#contributing)
 
 
-## [Javascript](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/03-javascript) 🍌
+## [Javascript](./03-javascript) 🍌
 
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -43,7 +43,7 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
   * Grafos
   * Analisis de Estructuras de datos
   
-## [Python](https://github.com/alchemist-301/curso-de-algoritmos/tree/main/python) 🐍
+## [Python](./03-javascript) 🐍
 
 * Algoritmos de Ordenamiento
   * Burbuja
