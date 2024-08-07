@@ -22,23 +22,23 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
 ## [Javascript](./02-javascript) 🍌
 
 * Algoritmos de Ordenamiento
-  * Burbuja
-  * Binaria
-  * Selection
-  * Merge
-  * QuickSort
+  * [Burbuja](./02-javascript#burbuja)
+  * [Selection](./02-javascript#selection)
+  * [Insertion](./02-javascript#insertion)
+  * [QuickSort](./02-javascript#quicksort)
   * Análisis de Algoritmos de ordenamiento
 
-* Algoritmos de Búsqueda
+* Algoritmos de Búsqueda 
+    * Búsqueda Lineal
     * Búsqueda Binaria
 
 * Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
+  * Listas Doblemente Enlazadas
   * Pilas
   * Colas
-  * Listas Doblemente Enlazadas
   * Hash Tables
   * Árboles
   * Grafos
@@ -46,27 +46,24 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
   
 ## [Python](./03-python) 🐍
 
-Notas de algoritmos en Python estara disponible a partir del Lunes 12 de Agosto. 
-Gracias por la espera.
-
 * Algoritmos de Ordenamiento
-  * Burbuja
-  * Binaria
-  * Selection
-  * Merge
-  * QuickSort
+  * [Burbuja](./03-python#burbuja)
+  * [Selection](./03-python#selection)
+  * [Insertion](./03-python#insertion)
+  * [QuickSort](./03-python#quicksort)
   * Análisis de Algoritmos de ordenamiento
-  
-* Algoritmos de Búsqueda
+
+* Algoritmos de Búsqueda 
+    * Búsqueda Lineal
     * Búsqueda Binaria
-    
+
 * Estructura de Datos
   * Arreglos
   * Listas
   * Listas Enlazadas
+  * Listas Doblemente Enlazadas
   * Pilas
   * Colas
-  * Listas Doblemente Enlazadas
   * Hash Tables
   * Árboles
   * Grafos
