@@ -19,7 +19,7 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
 * [Contribuciones abiertas](#contributing)
 
 
-## [Javascript](./03-javascript) 🍌
+## [Javascript](./02-javascript) 🍌
 
 * Algoritmos de Ordenamiento
   * Burbuja
@@ -44,7 +44,7 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
   * Grafos
   * Análisis de Estructuras de datos
   
-## [Python](./03-javascript) 🐍
+## [Python](./03-python) 🐍
 
 * Algoritmos de Ordenamiento
   * Burbuja
