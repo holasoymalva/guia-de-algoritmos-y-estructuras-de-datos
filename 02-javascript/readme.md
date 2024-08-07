@@ -7,14 +7,13 @@ Las notas de Algoritmos en JavaScript proporcionan una guía para aprender los c
 * Algoritmos de Ordenamiento
   * [Burbuja](#burbuja)
   * [Selection](#selection)
-  * Binaria
-  * Merge
-  * QuickSort
-  * Analisis de Algoritmos de ordemamiento
+  * [Insertion](#insertion)
+  * [QuickSort](#quicksort)
+  * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordemamiento)
 
-* Algoritmos de Busqueda
-  * Busqueda Lineal
-  * Busqueda Binaria
+* Algoritmos de Búsqueda
+  * [Búsqueda Lineal](#busqueda-lineal)
+  * [Búsqueda Binaria](#busqueda-binaria)
 
 * Estructura de Datos
   * Arreglos
