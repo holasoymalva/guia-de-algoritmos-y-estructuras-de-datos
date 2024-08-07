@@ -23,7 +23,8 @@ La Notación Big O es una forma de medir el tiempo de ejecución y la complejida
 
 Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
 
-* Algoritmo de búsqueda lineal: Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada elemento en una secuencia hasta encontrar una coincidencia.
+### Algoritmo de búsqueda lineal - O(n)
+Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada elemento en una secuencia hasta encontrar una coincidencia.
 
 ```javascript
    function linearSearch(arr, target) {
@@ -36,7 +37,8 @@ Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
    }
 ```
 
-* Algoritmo de búsqueda binaria: Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
+### Algoritmo de búsqueda binaria - O(log n) 
+Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
 
 ```javascript
 function binarySearch(arr, target) {
@@ -56,7 +58,8 @@ function binarySearch(arr, target) {
 }
 ```
 
-* Algoritmo de ordenamiento por selección: Este algoritmo tiene una complejidad temporal de O(n^2), ya que debe comparar cada elemento con todos los demás para encontrar el mínimo y moverlo a su posición final en la secuencia.
+### Algoritmo de ordenamiento por selección - O(n^2) 
+Este algoritmo tiene una complejidad temporal de O(n^2), ya que debe comparar cada elemento con todos los demás para encontrar el mínimo y moverlo a su posición final en la secuencia.
 
 ```javascript
 function selectionSort(arr) {
@@ -75,7 +78,8 @@ function selectionSort(arr) {
 }
 ```
 
-* Algoritmo de ordenamiento rápido (QuickSort): Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
+### Algoritmo de ordenamiento rápido (QuickSort) - O(n log n)
+* Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
 
 ```javascript
   function quickSort(arr) {
