@@ -46,6 +46,9 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
   
 ## [Python](./03-python) 🐍
 
+Notas de algoritmos en Python estara disponible a partir del Lunes 12 de Agosto. 
+Gracias por la espera.
+
 * Algoritmos de Ordenamiento
   * Burbuja
   * Binaria
