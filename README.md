@@ -2,14 +2,14 @@
 
 ## INDICE :
 
-* [Fundamentos](https://github.com/malvabombom/curso-de-algoritmos#fundamentos-)
-    * [Complejidad Computacional](#complejidad-computacional-wiki-reference)
-    * [Analisis de algoritmos](#analisis-de-algoritmos-wiki-reference)
-    * [Big O notation](#big-o-notation---notacion-de-la-gran-o)
-    * [Capacidad de Memoria](#capacidad-de-memoria)
-    * [Tipos de algoritmos](#tipos-de-algoritmos)
-    * [Algoritmos de Ordenamiento](#algoritmos-de-ordenamiento)
-    * [Algoritmos de Busqueda](#algoritmos-de-busqueda)
+* [Fundamentos](./01-fundamentos#fundamentos-)
+    * [Complejidad Computacional](./01-fundamentos#complejidad-computacional-wiki-reference)
+    * [Analisis de algoritmos](./01-fundamentos#analisis-de-algoritmos-wiki-reference)
+    * [Big O notation](./01-fundamentos#big-o-notation---notacion-de-la-gran-o)
+    * [Capacidad de Memoria](./01-fundamentos#capacidad-de-memoria)
+    * [Tipos de algoritmos](./01-fundamentos#tipos-de-algoritmos)
+    * [Algoritmos de Ordenamiento](./01-fundamentos#algoritmos-de-ordenamiento)
+    * [Algoritmos de Busqueda](./01-fundamentos#algoritmos-de-busqueda)
     * [Estructura de Datos](./01-fundamentos#estructuras-de-datos)
 * [Algoritmos y Estructura de datos en Javascript](https://github.com/malvabombom/curso-de-algoritmos#javascript-)
 * [Algoritmos y Estructura de datos en Python](https://github.com/malvabombom/curso-de-algoritmos#python-)
