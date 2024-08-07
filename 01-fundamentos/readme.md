@@ -6,16 +6,16 @@ El análisis de algoritmos y las estructuras de datos son conceptos clave en la 
 ## Complejidad Computacional [Wiki Reference](https://en.wikipedia.org/wiki/Computational_complexity_theory)
 
 
-La teoría de la complejidad computacional se enfoca en clasificar los problemas computacionales de acuerdo con su uso de recursos y relacionar estas clases entre sí. Un problema computacional es una tarea resuelta por una computadora. Un problema de cálculo se puede resolver mediante la aplicación mecánica de pasos matemáticos, como un algoritmo .
+La teoría de la complejidad computacional clasifica problemas computacionales según el uso de recursos como tiempo y almacenamiento. Un problema es intrínsecamente difícil si su solución requiere muchos recursos, independientemente del algoritmo utilizado. Esta teoría utiliza modelos matemáticos para estudiar la complejidad de los problemas, incluyendo medidas como la cantidad de comunicación, el número de puertas en un circuito y el número de procesadores. Un objetivo clave es determinar los límites de lo que las computadoras pueden hacer, ejemplificado por el problema P vs NP.
 
-Un problema se considera intrínsecamente difícil si su solución requiere recursos importantes, sea cual sea el algoritmo utilizado. La teoría formaliza esta intuición, al introducir modelos matemáticos de computación para estudiar estos problemas y cuantificar su complejidad computacional , es decir, la cantidad de recursos necesarios para resolverlos, como el tiempo y el almacenamiento. También se utilizan otras medidas de complejidad, como la cantidad de comunicación (utilizada en la complejidad de la comunicación ), el número de puertas en un circuito (utilizado en la complejidad del circuito ) y el número de procesadores (utilizado en la computación en paralelo).). Uno de los roles de la teoría de la complejidad computacional es determinar los límites prácticos de lo que las computadoras pueden y no pueden hacer. El problema P versus NP , uno de los siete problemas del Premio del Milenio , está dedicado al campo de la complejidad computacional. [1]
-
-Los campos estrechamente relacionados en la informática teórica son el análisis de algoritmos y la teoría de la computabilidad.. Una distinción clave entre el análisis de algoritmos y la teoría de la complejidad computacional es que el primero se dedica a analizar la cantidad de recursos que necesita un algoritmo en particular para resolver un problema, mientras que el segundo hace una pregunta más general sobre todos los algoritmos posibles que podrían usarse para resolver el mismo problema. Más precisamente, la teoría de la complejidad computacional intenta clasificar los problemas que pueden o no pueden resolverse con recursos apropiadamente restringidos. A su vez, imponer restricciones a los recursos disponibles es lo que distingue la complejidad computacional de la teoría de la computabilidad: esta última teoría pregunta qué tipos de problemas pueden, en principio, resolverse algorítmicamente.
+El análisis de algoritmos y la teoría de la computabilidad están estrechamente relacionados. El análisis de algoritmos evalúa los recursos que un algoritmo específico necesita, mientras que la complejidad computacional clasifica problemas en función de todos los algoritmos posibles. La complejidad computacional se diferencia de la teoría de la computabilidad al enfocarse en las restricciones de recursos, mientras que la teoría de la computabilidad se centra en qué problemas pueden resolverse algorítmicamente.
 
 
 ## Analisis de algoritmos [Wiki Reference](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
 
-En informática , el análisis de algoritmos es el proceso de encontrar la complejidad computacional de los algoritmos: la cantidad de tiempo, almacenamiento u otros recursos necesarios para ejecutarlos . Por lo general, esto implica determinar una función que relaciona la longitud de la entrada de un algoritmo con el número de pasos que toma (su complejidad temporal ) o el número de ubicaciones de almacenamiento que utiliza (su complejidad espacial ). Se dice que un algoritmo es eficiente cuando los valores de esta función son pequeños o crecen lentamente en comparación con un crecimiento en el tamaño de la entrada. Diferentes entradas de la misma longitud pueden hacer que el algoritmo tenga un comportamiento diferente, por lo queLas descripciones de casos mejores, peores y promedio podrían ser de interés práctico. Cuando no se especifica lo contrario, la función que describe el rendimiento de un algoritmo suele ser un límite superior , determinado a partir de las entradas del peor caso al algoritmo.
+El análisis de algoritmos es el proceso de determinar la complejidad computacional de un algoritmo, es decir, la cantidad de tiempo, almacenamiento u otros recursos que requiere. Esto implica establecer una función que relacione la longitud de la entrada con el número de pasos que toma (complejidad temporal) o las ubicaciones de almacenamiento utilizadas (complejidad espacial). 
+
+Un algoritmo es eficiente si estos valores son pequeños o crecen lentamente en relación con el tamaño de la entrada. Las descripciones de casos mejor, peor y promedio son útiles para entender el comportamiento del algoritmo. Generalmente, se utiliza un límite superior basado en el peor caso para describir el rendimiento de un algoritmo.
 
 ## Big O Notation - Notacion de la Gran O
 
@@ -23,8 +23,8 @@ La Notación Big O es una forma de medir el tiempo de ejecución y la complejida
 
 Aquí hay algunos ejemplos de la Notación Big O en JavaScript:
 
-### Algoritmo de búsqueda lineal - O(n)
-Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada elemento en una secuencia hasta encontrar una coincidencia.
+### O(n)
+**Algoritmo de búsqueda lineal:** Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada elemento en una secuencia hasta encontrar una coincidencia.
 
 ```javascript
    function linearSearch(arr, target) {
@@ -37,8 +37,8 @@ Este algoritmo tiene una complejidad temporal de O(n), ya que debe revisar cada 
    }
 ```
 
-### Algoritmo de búsqueda binaria - O(log n) 
-Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
+### O(log n) 
+**Algoritmo de búsqueda binaria:**Este algoritmo tiene una complejidad temporal de O(log n), ya que divide la secuencia en mitades y descarta la mitad que no contiene el elemento buscado en cada iteración.
 
 ```javascript
 function binarySearch(arr, target) {
@@ -58,8 +58,8 @@ function binarySearch(arr, target) {
 }
 ```
 
-### Algoritmo de ordenamiento por selección - O(n^2) 
-Este algoritmo tiene una complejidad temporal de O(n^2), ya que debe comparar cada elemento con todos los demás para encontrar el mínimo y moverlo a su posición final en la secuencia.
+###  O(n^2) 
+**Algoritmo de ordenamiento por selección:** Este algoritmo tiene una complejidad temporal de O(n^2), ya que debe comparar cada elemento con todos los demás para encontrar el mínimo y moverlo a su posición final en la secuencia.
 
 ```javascript
 function selectionSort(arr) {
@@ -78,8 +78,8 @@ function selectionSort(arr) {
 }
 ```
 
-### Algoritmo de ordenamiento rápido (QuickSort) - O(n log n)
-* Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
+### O(n log n)
+**Algoritmo de ordenamiento rápido (QuickSort):** Este algoritmo tiene una complejidad temporal de O(n log n) en el mejor y peor de los casos, lo que lo hace mucho más eficiente que el algoritmo de ordenamiento por selección.
 
 ```javascript
   function quickSort(arr) {
@@ -117,17 +117,17 @@ La resolución de problemas en el análisis de algoritmos es un proceso sistemá
 
 El proceso de resolución de problemas en el análisis de algoritmos se divide en varios pasos:
 
-* Comprensión del problema: Entender el problema a resolver y los requisitos necesarios para solucionarlo.
+* **Comprensión del problema**: Entender el problema a resolver y los requisitos necesarios para solucionarlo.
 
-* Análisis del problema: Analizar el problema y identificar los factores críticos que influyen en su solución.
+* **Análisis del problema**: Analizar el problema y identificar los factores críticos que influyen en su solución.
 
-* Diseño de la solución: Diseñar un algoritmo que resuelva el problema de manera efectiva.
+* **Diseño de la solución**: Diseñar un algoritmo que resuelva el problema de manera efectiva.
 
-* Implementación: Implementar el algoritmo en un lenguaje de programación y asegurarse de que funcione correctamente.
+* **Implementación**: Implementar el algoritmo en un lenguaje de programación y asegurarse de que funcione correctamente.
 
-* Evaluación: Evaluar el rendimiento del algoritmo y compararlo con otros algoritmos que puedan resolver el mismo problema.
+* **Evaluación**: Evaluar el rendimiento del algoritmo y compararlo con otros algoritmos que puedan resolver el mismo problema.
 
-* Optimización: Optimizar el algoritmo para mejorar su rendimiento y reducir su complejidad.
+* **Optimización**: Optimizar el algoritmo para mejorar su rendimiento y reducir su complejidad.
 
 La resolución de problemas en el análisis de algoritmos es una habilidad esencial para los desarrolladores de software, ya que les permite diseñar soluciones eficientes y efectivas a problemas complejos.
 
