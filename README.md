@@ -1,5 +1,6 @@
-# Guia de algoritmos y estructuras de datos. 🧮
-Hola quiero darte la bienvenida a este recurso donde encontraras una serie de notas, ejemplos y ejercicios para conocer mas a detalle como funcionan los algoritmos y las estructuras de datos. Estos temas en particular son uno de los pilares al aprender a programar, ya que nos ayudar a entender como resolver problemas y desarrollar nuestra logica de programacion. Espero lo disfrutes 🙌
+# Guía de algoritmos y estructuras de datos. 🧮
+
+Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de notas, ejemplos y ejercicios para conocer más a detalle cómo funcionan los algoritmos y las estructuras de datos. Estos temas, en particular, son uno de los pilares al aprender a programar, ya que nos ayudan a entender cómo resolver problemas y desarrollar nuestra lógica de programación. Espero lo disfrutes. 🙌
 
 ## INDICE :
 
@@ -26,10 +27,10 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
   * Selection
   * Merge
   * QuickSort
-  * Analisis de Algoritmos de ordemamiento
+  * Análisis de Algoritmos de ordenamiento
 
-* Algoritmos de Busqueda
-    * Busqueda Binaria
+* Algoritmos de Búsqueda
+    * Búsqueda Binaria
 
 * Estructura de Datos
   * Arreglos
@@ -39,9 +40,9 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
   * Colas
   * Listas Doblemente Enlazadas
   * Hash Tables
-  * Arboles
+  * Árboles
   * Grafos
-  * Analisis de Estructuras de datos
+  * Análisis de Estructuras de datos
   
 ## [Python](./03-javascript) 🐍
 
@@ -51,10 +52,10 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
   * Selection
   * Merge
   * QuickSort
-  * Analisis de Algoritmos de ordemamiento
+  * Análisis de Algoritmos de ordenamiento
   
-* Algoritmos de Busqueda
-    * Busqueda Binaria
+* Algoritmos de Búsqueda
+    * Búsqueda Binaria
     
 * Estructura de Datos
   * Arreglos
@@ -64,9 +65,9 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
   * Colas
   * Listas Doblemente Enlazadas
   * Hash Tables
-  * Arboles
+  * Árboles
   * Grafos
-  * Analisis de Estructuras de datos
+  * Análisis de Estructuras de datos
     
 
 ## Bibliografia 📚
@@ -111,7 +112,7 @@ Hola quiero darte la bienvenida a este recurso donde encontraras una serie de no
 
 ## Contributing 
 
-Los contribuciones son todas bienvenidas. Se aceptan desde correcciones ortograficas, ejemplos de codigo, propuestas de retos de programacion y peticiones para agregar o desarrollar los temas que consideres necesarios. Para esto solo seria necesario clonar el repositorio, y hacer un PR con los cambios sugeridos.
+Las contribuciones son bienvenidas. Se aceptan desde correcciones ortográficas, ejemplos de código, propuestas de retos de programación y peticiones para agregar o desarrollar los temas que consideres necesarios. Para esto solo sería necesario clonar el repositorio y hacer un PR con los cambios sugeridos.
 
 ## Authors 
 Created by : [HolaSoyMalva](https://github.com/holasoymalva).
