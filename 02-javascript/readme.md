@@ -214,6 +214,10 @@ const indiceEncontrado = busquedaBinaria(valoresOrdenados, valorBuscar);
 console.log(indiceEncontrado); // Output: 3
 ```
 
+# Estructura de Datos
+
+
+
 ## Material Complementario y Fuentes 📚
 
 Para profundizar en los conceptos de algoritmos y estructuras de datos, aquí tienes una lista de recursos adicionales que pueden ser útiles:
