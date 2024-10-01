@@ -4,14 +4,14 @@ Las notas de Algoritmos en JavaScript proporcionan una guía para aprender los c
 
 ## Indice:
 
-* Algoritmos de Ordenamiento
+* [Algoritmos de Ordenamiento](#algoritmos-de-ordenamiento)
   * [Burbuja](#burbuja)
   * [Selection](#selection)
   * [Insertion](#insertion)
   * [QuickSort](#quicksort)
   * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordemamiento)
 
-* Algoritmos de Búsqueda
+* [Algoritmos de Búsqueda](#algoritmos-de-busqueda)
   * [Búsqueda Lineal](#busqueda-lineal)
   * [Búsqueda Binaria](#busqueda-binaria)
 
