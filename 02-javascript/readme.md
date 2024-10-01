@@ -15,9 +15,9 @@ Las notas de Algoritmos en JavaScript proporcionan una guía para aprender los c
   * [Búsqueda Lineal](#busqueda-lineal)
   * [Búsqueda Binaria](#busqueda-binaria)
 
-* Estructura de Datos
-  * Arreglos
-  * Listas
+* [Estructura de Datos](#estructura-de-datos)
+  * [Arreglos](#arreglos-arrays)
+  * [Listas](#listas)
   * Listas Enlazadas
   * Pilas
   * Colas
