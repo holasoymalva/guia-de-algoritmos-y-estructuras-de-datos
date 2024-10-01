@@ -216,6 +216,86 @@ console.log(indiceEncontrado); // Output: 3
 
 # Estructura de Datos
 
+En la programación, las estructuras de datos son formas fundamentales de organizar y almacenar información para que pueda ser utilizada de manera eficiente. JavaScript, siendo un lenguaje muy utilizado en la web, ofrece una variedad de estructuras de datos, tanto nativas como implementadas por el programador. A continuación, exploraremos distintas estructuras de datos con ejemplos prácticos en JavaScript.
+
+### Arreglos (Arrays)
+
+Un arreglo es una colección de elementos ordenados. Los arreglos en JavaScript pueden contener cualquier tipo de datos, incluyendo otros arreglos.
+
+```javascript
+ let frutas = ['manzana', 'banana', 'naranja'];
+ 
+ // Acceso a elementos del arreglo
+ console.log(frutas[0]); // 'manzana'
+ 
+ // Añadir un nuevo elemento
+ frutas.push('uva');
+ console.log(frutas); // ['manzana', 'banana', 'naranja', 'uva']
+ 
+ // Eliminar el último elemento
+ frutas.pop();
+ console.log(frutas); // ['manzana', 'banana', 'naranja']
+ 
+ // Recorrer un arreglo
+ for (let i = 0; i < frutas.length; i++) {
+   console.log(frutas[i]);
+ }
+ 
+ // Métodos útiles
+ console.log(frutas.includes('banana')); // true
+ console.log(frutas.indexOf('naranja')); // 2
+```
+
+Los arreglos en JavaScript son versátiles y cuentan con varios métodos nativos como `map()`, `filter()`, `reduce()`, entre otros, que los hacen muy útiles para manipular grandes cantidades de datos.
+
+### Listas
+
+Una lista es una colección de elementos almacenados secuencialmente. La diferencia principal entre una lista y un arreglo es que la lista tiene más restricciones en las operaciones de acceso y actualización.
+
+En JavaScript, podemos simular listas utilizando arreglos.
+
+```javascript
+ class Lista {
+   constructor() {
+     this.items = [];
+   }
+ 
+   // Agregar un elemento al final
+   agregar(item) {
+     this.items.push(item);
+   }
+ 
+   // Eliminar un elemento específico
+   eliminar(item) {
+     const index = this.items.indexOf(item);
+     if (index > -1) {
+       this.items.splice(index, 1);
+     }
+   }
+ 
+   // Verificar si un elemento existe
+   contiene(item) {
+     return this.items.includes(item);
+   }
+ 
+   // Obtener tamaño de la lista
+   tamano() {
+     return this.items.length;
+   }
+ 
+   // Mostrar la lista
+   mostrar() {
+     console.log(this.items);
+   }
+ }
+ 
+ const miLista = new Lista();
+ miLista.agregar('A');
+ miLista.agregar('B');
+ miLista.mostrar(); // ['A', 'B']
+ miLista.eliminar('A');
+ miLista.mostrar(); // ['B']
+```
 
 
 ## Material Complementario y Fuentes 📚
