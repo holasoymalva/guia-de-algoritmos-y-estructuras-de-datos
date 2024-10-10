@@ -518,6 +518,124 @@ console.log(miTablaHash.get("edad")); // 30
 
 ```
 
+## Árboles (Trees)
+
+Un árbol es una estructura de datos jerárquica. Cada nodo contiene un valor y una lista de referencias a otros nodos (hijos). El nodo superior se llama raíz.
+
+```javascript
+class NodoArbol {
+  constructor(valor) {
+    this.valor = valor;
+    this.izquierda = null;
+    this.derecha = null;
+  }
+}
+
+class ArbolBinario {
+  constructor() {
+    this.raiz = null;
+  }
+
+  agregar(valor) {
+    const nuevoNodo = new NodoArbol(valor);
+    if (!this.raiz) {
+      this.raiz = nuevoNodo;
+    } else {
+      this._agregarRecursivamente(this.raiz, nuevoNodo);
+    }
+  }
+
+  _agregarRecursivamente(actual, nuevoNodo) {
+    if (nuevoNodo.valor < actual.valor) {
+      if (!actual.izquierda) {
+        actual.izquierda = nuevoNodo;
+      } else {
+        this._agregarRecursivamente(actual.izquierda, nuevoNodo);
+      }
+    } else {
+      if (!actual.derecha) {
+        actual.derecha = nuevoNodo;
+      } else {
+        this._agregarRecursivamente(actual.derecha, nuevoNodo);
+      }
+    }
+  }
+
+  // Recorrer en orden
+  recorrerEnOrden() {
+    this._recorrerEnOrdenRecursivo(this.raiz);
+  }
+
+  _recorrerEnOrdenRecursivo(nodo) {
+    if (nodo) {
+      this._recorrerEnOrdenRecursivo(nodo.izquierda);
+      console.log(nodo.valor);
+      this._recorrerEnOrdenRecursivo(nodo.derecha);
+    }
+  }
+}
+
+const miArbol = new ArbolBinario();
+miArbol.agregar(10);
+miArbol.agregar(5);
+miArbol.agregar(15);
+miArbol.recorrerEnOrden(); // 5, 10, 15
+```
+
+## Grafos (Graphs)
+
+Un grafo es una estructura de datos que consiste en nodos (vértices) conectados por aristas. Puede ser dirigido o no dirigido, ponderado o no ponderado.
+
+```javascript
+class Grafo {
+  constructor() {
+    this.adyacencias = {};
+  }
+
+  // Agregar un nodo
+  agregarVertice(vertice) {
+    if (!this.adyacencias[vertice]) {
+      this.adyacencias[vertice] = [];
+    }
+  }
+
+  // Agregar una arista
+  agregarArista(vertice1, vertice2) {
+    this.adyacencias[vertice1].push(vertice2);
+    this.adyacencias[vertice2].push(vertice1);
+  }
+
+  // Mostrar el grafo
+  mostrar() {
+    for (let vertice in this.adyacencias) {
+      console.log(`${vertice} -> ${this.adyacencias[vertice].join(", ")}`);
+    }
+  }
+}
+
+const miGrafo = new Grafo();
+miGrafo.agregarVertice("A");
+miGrafo.agregarVertice("B");
+miGrafo.agregarVertice("C");
+miGrafo.agregarArista("A", "B");
+miGrafo.agregarArista("A", "C");
+miGrafo.mostrar(); 
+// A -> B, C
+// B -> A
+// C -> A
+
+```
+
+## Análisis de Estructuras de Datos
+
+Cuando se selecciona una estructura de datos, es importante tener en cuenta las operaciones que se realizarán con frecuencia. Aquí hay una breve comparación del rendimiento de algunas estructuras de datos para las operaciones más comunes:
+
+* O(1): Tiempo constante
+* O(n): Tiempo lineal
+* O(log n): Tiempo logarítmico
+
+La eficiencia de una estructura de datos depende en gran medida del contexto en el que se usa. Por ejemplo, los arreglos son ideales para el acceso rápido a elementos, mientras que las listas enlazadas son más eficientes en la inserción y eliminación.
+
 ## Material Complementario y Fuentes 📚
 
 Para profundizar en los conceptos de algoritmos y estructuras de datos, aquí tienes una lista de recursos adicionales que pueden ser útiles:
