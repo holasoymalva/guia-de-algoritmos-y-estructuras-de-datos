@@ -297,6 +297,51 @@ En JavaScript, podemos simular listas utilizando arreglos.
  miLista.mostrar(); // ['B']
 ```
 
+## Listas Enlazadas (Linked Lists)
+
+Una lista enlazada es una estructura de datos en la que cada elemento (nodo) contiene un valor y un puntero o referencia al siguiente nodo en la secuencia. No se utilizan índices como en un arreglo, lo que permite una inserción y eliminación más eficiente.
+
+```javascript
+class Nodo {
+  constructor(valor) {
+    this.valor = valor;
+    this.siguiente = null;
+  }
+}
+
+class ListaEnlazada {
+  constructor() {
+    this.cabeza = null;
+  }
+
+  agregar(valor) {
+    const nuevoNodo = new Nodo(valor);
+    if (!this.cabeza) {
+      this.cabeza = nuevoNodo;
+    } else {
+      let actual = this.cabeza;
+      while (actual.siguiente) {
+        actual = actual.siguiente;
+      }
+      actual.siguiente = nuevoNodo;
+    }
+  }
+
+  mostrar() {
+    let actual = this.cabeza;
+    while (actual) {
+      console.log(actual.valor);
+      actual = actual.siguiente;
+    }
+  }
+}
+
+const miListaEnlazada = new ListaEnlazada();
+miListaEnlazada.agregar(1);
+miListaEnlazada.agregar(2);
+miListaEnlazada.agregar(3);
+miListaEnlazada.mostrar(); // 1, 2, 3
+```
 
 ## Material Complementario y Fuentes 📚
 
