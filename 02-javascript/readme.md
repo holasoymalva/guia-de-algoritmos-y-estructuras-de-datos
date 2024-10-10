@@ -343,6 +343,129 @@ miListaEnlazada.agregar(3);
 miListaEnlazada.mostrar(); // 1, 2, 3
 ```
 
+## Pilas (Stacks)
+
+Una pila es una estructura de datos que sigue el principio LIFO (Last In, First Out). El último elemento agregado es el primero en ser retirado.
+
+```javascript
+class Pila {
+  constructor() {
+    this.items = [];
+  }
+
+  // Agregar un elemento a la pila
+  push(item) {
+    this.items.push(item);
+  }
+
+  // Retirar el último elemento
+  pop() {
+    if (this.items.length === 0) return "Pila vacía";
+    return this.items.pop();
+  }
+
+  // Ver el último elemento sin retirarlo
+  peek() {
+    return this.items[this.items.length - 1];
+  }
+
+  // Verificar si la pila está vacía
+  isEmpty() {
+    return this.items.length === 0;
+  }
+}
+
+const miPila = new Pila();
+miPila.push(1);
+miPila.push(2);
+console.log(miPila.peek()); // 2
+console.log(miPila.pop()); // 2
+console.log(miPila.isEmpty()); // false
+```
+
+## Colas (Queues)
+
+Una cola es una estructura de datos que sigue el principio FIFO (First In, First Out). El primer elemento que entra es el primero en salir.
+
+```javascript
+class Cola {
+  constructor() {
+    this.items = [];
+  }
+
+  // Agregar un elemento a la cola
+  enqueue(item) {
+    this.items.push(item);
+  }
+
+  // Retirar el primer elemento de la cola
+  dequeue() {
+    if (this.items.length === 0) return "Cola vacía";
+    return this.items.shift();
+  }
+
+  // Verificar si la cola está vacía
+  isEmpty() {
+    return this.items.length === 0;
+  }
+}
+
+const miCola = new Cola();
+miCola.enqueue(1);
+miCola.enqueue(2);
+console.log(miCola.dequeue()); // 1
+console.log(miCola.isEmpty()); // false
+
+```
+
+## Listas Doblemente Enlazadas (Doubly Linked Lists)
+
+Una lista doblemente enlazada es una lista en la que cada nodo tiene dos referencias: una al siguiente nodo y otra al nodo anterior.
+
+```javascript
+class NodoDoble {
+  constructor(valor) {
+    this.valor = valor;
+    this.siguiente = null;
+    this.anterior = null;
+  }
+}
+
+class ListaDoblementeEnlazada {
+  constructor() {
+    this.cabeza = null;
+  }
+
+  agregar(valor) {
+    const nuevoNodo = new NodoDoble(valor);
+    if (!this.cabeza) {
+      this.cabeza = nuevoNodo;
+    } else {
+      let actual = this.cabeza;
+      while (actual.siguiente) {
+        actual = actual.siguiente;
+      }
+      actual.siguiente = nuevoNodo;
+      nuevoNodo.anterior = actual;
+    }
+  }
+
+  mostrar() {
+    let actual = this.cabeza;
+    while (actual) {
+      console.log(actual.valor);
+      actual = actual.siguiente;
+    }
+  }
+}
+
+const miListaDoblementeEnlazada = new ListaDoblementeEnlazada();
+miListaDoblementeEnlazada.agregar(1);
+miListaDoblementeEnlazada.agregar(2);
+miListaDoblementeEnlazada.agregar(3);
+miListaDoblementeEnlazada.mostrar(); // 1, 2, 3
+
+```
 ## Material Complementario y Fuentes 📚
 
 Para profundizar en los conceptos de algoritmos y estructuras de datos, aquí tienes una lista de recursos adicionales que pueden ser útiles:
