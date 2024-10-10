@@ -466,6 +466,58 @@ miListaDoblementeEnlazada.agregar(3);
 miListaDoblementeEnlazada.mostrar(); // 1, 2, 3
 
 ```
+## Tablas Hash (Hash Tables)
+
+Una tabla hash es una estructura de datos que asocia claves únicas con valores. Utiliza una función hash para mapear claves a índices en una matriz.
+
+```javascript
+class HashTable {
+  constructor(size = 50) {
+    this.buckets = new Array(size);
+    this.size = size;
+  }
+
+  // Función hash
+  hash(key) {
+    let hashValue = 0;
+    for (let i = 0; i < key.length; i++) {
+      hashValue += key.charCodeAt(i);
+    }
+    return hashValue % this.size;
+  }
+
+  // Agregar o actualizar un par clave-valor
+  set(key, value) {
+    const index = this.hash(key);
+    if (!this.buckets[index]) {
+      this.buckets[index] = [];
+    }
+    this.buckets[index].push([key, value]);
+  }
+
+  // Obtener el valor asociado a una clave
+  get(key) {
+    const index = this.hash(key);
+    const bucket = this.buckets[index];
+    if (bucket) {
+      for (let i = 0; i < bucket.length; i++) {
+        if (bucket[i][0] === key) {
+          return bucket[i][1];
+        }
+      }
+    }
+    return undefined;
+  }
+}
+
+const miTablaHash = new HashTable();
+miTablaHash.set("nombre", "Juan");
+miTablaHash.set("edad", 30);
+console.log(miTablaHash.get("nombre")); // 'Juan'
+console.log(miTablaHash.get("edad")); // 30
+
+```
+
 ## Material Complementario y Fuentes 📚
 
 Para profundizar en los conceptos de algoritmos y estructuras de datos, aquí tienes una lista de recursos adicionales que pueden ser útiles:
