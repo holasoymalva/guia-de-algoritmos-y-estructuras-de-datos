@@ -630,9 +630,22 @@ miGrafo.mostrar();
 
 Cuando se selecciona una estructura de datos, es importante tener en cuenta las operaciones que se realizarán con frecuencia. Aquí hay una breve comparación del rendimiento de algunas estructuras de datos para las operaciones más comunes:
 
-* O(1): Tiempo constante
-* O(n): Tiempo lineal
-* O(log n): Tiempo logarítmico
+
+| **Estructura**     | **Acceso** | **Búsqueda** | **Inserción** | **Eliminación** |
+|--------------------|------------|--------------|---------------|----------------|
+| Arreglo            | O(1)       | O(n)         | O(n)          | O(n)           |
+| Lista Enlazada     | O(n)       | O(n)         | O(1)          | O(1)           |
+| Pila               | O(n)       | O(n)         | O(1)          | O(1)           |
+| Cola               | O(n)       | O(n)         | O(1)          | O(1)           |
+| Hash Table         | O(1)       | O(1)         | O(1)          | O(1)           |
+| Árbol Binario      | O(log n)   | O(log n)     | O(log n)      | O(log n)       |
+| Grafo              | O(V+E)     | O(V+E)       | O(1)          | O(1)           |
+
+### Notación Big-O
+
+- **O(1)**: Tiempo constante  
+- **O(n)**: Tiempo lineal  
+- **O(log n)**: Tiempo logarítmico  
 
 La eficiencia de una estructura de datos depende en gran medida del contexto en el que se usa. Por ejemplo, los arreglos son ideales para el acceso rápido a elementos, mientras que las listas enlazadas son más eficientes en la inserción y eliminación.
 
