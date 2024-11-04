@@ -394,9 +394,6 @@ class Grafo:
 | Cola | O(n) | O(n) | O(1) | O(1) |
 | Árbol Binario*** | O(log n) | O(log n) | O(log n) | O(log n) |
 
-\* Al final de la lista  
-\** Promedio, puede ser O(n) en el peor caso  
-\*** Para un árbol balanceado
 
 ## Material Complementario y Fuentes 📚
 
