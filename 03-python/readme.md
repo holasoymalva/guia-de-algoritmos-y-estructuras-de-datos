@@ -4,18 +4,28 @@ Las notas de algoritmos en Python proporcionan una guía para aprender los conce
 
 ## Índice:
 
-* Algoritmos de Ordenamiento
+* [Algoritmos de Ordenamiento](#algoritmos-de-ordenamiento)
   * [Burbuja](#burbuja)
   * [Selection](#selection)
   * [Insertion](#insertion)
   * [QuickSort](#quicksort)
-  * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordemamiento)
+  * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordenamiento)
 
-* Algoritmos de Búsqueda
+* [Algoritmos de Búsqueda](#algoritmos-de-busqueda)
   * [Búsqueda Lineal](#busqueda-lineal)
   * [Búsqueda Binaria](#busqueda-binaria)
 
-
+* [Estructura de Datos](#estructura-de-datos)
+  * [Listas](#listas)
+  * [Tuplas](#tuplas)
+  * [Diccionarios](#diccionarios)
+  * [Conjuntos](#conjuntos)
+  * [Listas Enlazadas](#listas-enlazadas)
+  * [Pilas](#pilas)
+  * [Colas](#colas)
+  * [Árboles](#arboles)
+  * [Grafos](#grafos)
+  * [Análisis de Estructuras de Datos](#analisis-de-estructuras-de-datos)
 
 ## Algoritmos de Ordenamiento
 
@@ -162,6 +172,231 @@ valores_ordenados = [1, 2, 3, 4, 5, 6, 7]
 valor_a_buscar = 4
 print(busqueda_binaria(valores_ordenados, valor_a_buscar))  # Output: 3
 ```
+
+## Estructura de Datos
+
+En Python, las estructuras de datos son fundamentales para organizar y manipular datos de manera eficiente. Python ofrece tanto estructuras de datos incorporadas como la posibilidad de implementar estructuras personalizadas.
+
+### Listas
+Las listas son una de las estructuras de datos más versátiles en Python:
+
+```python
+# Creación y manipulación básica de listas
+frutas = ['manzana', 'banana', 'naranja']
+
+# Acceso a elementos
+print(frutas[0])  # 'manzana'
+
+# Métodos comunes
+frutas.append('uva')
+frutas.extend(['pera', 'mango'])
+frutas.pop()
+frutas.insert(1, 'kiwi')
+
+# List comprehension
+cuadrados = [x**2 for x in range(5)]
+```
+
+### Tuplas
+Las tuplas son secuencias inmutables:
+
+```python
+# Creación de tuplas
+coordenadas = (10, 20)
+punto = 1, 2, 3  # Empaquetado de tupla
+
+# Desempaquetado
+x, y, z = punto
+
+# Métodos
+print(coordenadas.count(10))
+print(coordenadas.index(20))
+```
+
+### Diccionarios
+Los diccionarios almacenan pares clave-valor:
+
+```python
+# Creación de diccionarios
+estudiante = {
+    'nombre': 'Ana',
+    'edad': 20,
+    'cursos': ['Python', 'Data Science']
+}
+
+# Métodos comunes
+estudiante.update({'semestre': 3})
+print(estudiante.get('nombre'))
+print(estudiante.keys())
+print(estudiante.values())
+```
+
+### Conjuntos
+Los conjuntos son colecciones desordenadas de elementos únicos:
+
+```python
+# Creación de conjuntos
+colores = {'rojo', 'verde', 'azul'}
+
+# Operaciones de conjunto
+colores.add('amarillo')
+colores.remove('rojo')
+print('verde' in colores)
+
+# Operaciones matemáticas
+otros_colores = {'verde', 'negro', 'blanco'}
+print(colores.intersection(otros_colores))
+print(colores.union(otros_colores))
+```
+
+### Listas Enlazadas
+
+```python
+class Nodo:
+    def __init__(self, dato):
+        self.dato = dato
+        self.siguiente = None
+
+class ListaEnlazada:
+    def __init__(self):
+        self.cabeza = None
+
+    def agregar(self, dato):
+        nuevo_nodo = Nodo(dato)
+        if not self.cabeza:
+            self.cabeza = nuevo_nodo
+            return
+        actual = self.cabeza
+        while actual.siguiente:
+            actual = actual.siguiente
+        actual.siguiente = nuevo_nodo
+
+    def imprimir(self):
+        actual = self.cabeza
+        while actual:
+            print(actual.dato, end=" -> ")
+            actual = actual.siguiente
+        print("None")
+```
+
+### Pilas
+
+```python
+class Pila:
+    def __init__(self):
+        self.items = []
+
+    def esta_vacia(self):
+        return len(self.items) == 0
+
+    def apilar(self, item):
+        self.items.append(item)
+
+    def desapilar(self):
+        if not self.esta_vacia():
+            return self.items.pop()
+        return None
+
+    def ver_tope(self):
+        if not self.esta_vacia():
+            return self.items[-1]
+        return None
+```
+
+### Colas
+
+```python
+from collections import deque
+
+class Cola:
+    def __init__(self):
+        self.items = deque()
+
+    def esta_vacia(self):
+        return len(self.items) == 0
+
+    def encolar(self, item):
+        self.items.append(item)
+
+    def desencolar(self):
+        if not self.esta_vacia():
+            return self.items.popleft()
+        return None
+
+    def ver_frente(self):
+        if not self.esta_vacia():
+            return self.items[0]
+        return None
+```
+
+### Árboles
+
+```python
+class NodoArbol:
+    def __init__(self, valor):
+        self.valor = valor
+        self.izquierda = None
+        self.derecha = None
+
+class ArbolBinario:
+    def __init__(self):
+        self.raiz = None
+
+    def insertar(self, valor):
+        if not self.raiz:
+            self.raiz = NodoArbol(valor)
+        else:
+            self._insertar_recursivo(self.raiz, valor)
+
+    def _insertar_recursivo(self, nodo, valor):
+        if valor < nodo.valor:
+            if nodo.izquierda is None:
+                nodo.izquierda = NodoArbol(valor)
+            else:
+                self._insertar_recursivo(nodo.izquierda, valor)
+        else:
+            if nodo.derecha is None:
+                nodo.derecha = NodoArbol(valor)
+            else:
+                self._insertar_recursivo(nodo.derecha, valor)
+```
+
+### Grafos
+
+```python
+class Grafo:
+    def __init__(self):
+        self.vertices = {}
+
+    def agregar_vertice(self, valor):
+        if valor not in self.vertices:
+            self.vertices[valor] = []
+
+    def agregar_arista(self, desde, hasta):
+        if desde in self.vertices and hasta in self.vertices:
+            self.vertices[desde].append(hasta)
+            self.vertices[hasta].append(desde)
+
+    def obtener_vecinos(self, vertice):
+        return self.vertices.get(vertice, [])
+```
+
+### Análisis de Estructuras de Datos
+
+| Estructura | Acceso | Búsqueda | Inserción | Eliminación |
+|------------|---------|-----------|------------|--------------|
+| Lista | O(1) | O(n) | O(1)* | O(1)* |
+| Tupla | O(1) | O(n) | N/A | N/A |
+| Diccionario | O(1)** | O(1)** | O(1)** | O(1)** |
+| Conjunto | N/A | O(1)** | O(1)** | O(1)** |
+| Lista Enlazada | O(n) | O(n) | O(1) | O(1) |
+| Pila | O(n) | O(n) | O(1) | O(1) |
+| Cola | O(n) | O(n) | O(1) | O(1) |
+| Árbol Binario*** | O(log n) | O(log n) | O(log n) | O(log n) |
+
+\* Al final de la lista  
+\** Promedio, puede ser O(n) en el peor caso  
+\*** Para un árbol balanceado
 
 ## Material Complementario y Fuentes 📚
 
