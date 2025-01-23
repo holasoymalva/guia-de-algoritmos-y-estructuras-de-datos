@@ -7,7 +7,7 @@
   * [Selection](#selection)
   * [Insertion](#insertion)
   * [QuickSort](#quicksort)
-  * [Análisis de Algoritmos de ordenamiento](#analisis-de-algoritmos-de-ordemamiento)
+  * [Análisis de Algoritmos de ordenamiento](#análisis-de-algoritmos-de-ordemamiento)
 
 * Algoritmos de Búsqueda
   * [Búsqueda Lineal](#busqueda-lineal)
@@ -23,7 +23,7 @@
   * [Colas](#colas)
   * [Árboles](#arboles)
   * [Grafos](#grafos)
-  * [Análisis de Estructuras de Datos](#analisis-de-estructuras-de-datos)
+  * [Análisis de Estructuras de Datos](#análisis-de-estructuras-de-datos)
 
 
 [⬅️ Volver al inicio](../README.md)
