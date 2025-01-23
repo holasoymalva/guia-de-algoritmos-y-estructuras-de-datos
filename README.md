@@ -13,8 +13,8 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
     * [Algoritmos de Ordenamiento](./01-fundamentos#algoritmos-de-ordenamiento)
     * [Algoritmos de Busqueda](./01-fundamentos#algoritmos-de-busqueda)
     * [Estructura de Datos](./01-fundamentos#estructuras-de-datos)
-* [Algoritmos y Estructura de datos en Javascript](#javascript)
-* [Algoritmos y Estructura de datos en Python](#python)
+* [Algoritmos y Estructura de datos en Javascript](#algoritmos-y-estructuras-de-datos-en-javascript-)
+* [Algoritmos y Estructura de datos en Python](#algoritmos-y-estructuras-de-datos-en-python-)
 * Ejercicios de Practica
 * [Material Complementario](#bibliografia-)
 * [Contribuciones abiertas](#contributing)
