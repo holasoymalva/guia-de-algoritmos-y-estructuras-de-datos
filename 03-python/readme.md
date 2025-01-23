@@ -127,7 +127,7 @@ nums = [38, 27, 43, 3, 9, 82, 10]
 print(quicksort(nums))  # Output: [3, 9, 10, 27, 38, 43, 82]
 ```
 
-### Analisis de Algoritmos de ordemamiento
+### análisis de Algoritmos de ordemamiento
 
 El análisis de algoritmos de ordenamiento involucra evaluar su eficiencia en términos de tiempo y espacio. Los algoritmos de ordenamiento se clasifican a menudo por su complejidad temporal en el peor, mejor y promedio de los casos.
 
