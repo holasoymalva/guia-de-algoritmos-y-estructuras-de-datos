@@ -1,21 +1,19 @@
-# Notas de Algoritmos en Python 🐍
+# Algoritmos y Estructuras de Datos en Python 🐍
 
-Las notas de algoritmos en Python proporcionan una guía para aprender los conceptos fundamentales de los algoritmos y su implementación en el lenguaje de programación Python. Las notas cubren los conceptos básicos de los algoritmos, como la búsqueda y ordenamiento, junto con ejemplos detallados y explicaciones paso a paso sobre cómo implementar algoritmos en Python. Las notas también incluyen ejercicios y proyectos para ayudarte a consolidar tu comprensión de los algoritmos y su aplicación en el desarrollo de software. Al finalizar estas notas, deberías tener una sólida comprensión de los algoritmos y cómo se pueden aplicar para resolver problemas de programación en Python.
+## Índice
 
-## Índice:
-
-* [Algoritmos de Ordenamiento](#algoritmos-de-ordenamiento)
+* Algoritmos de Ordenamiento
   * [Burbuja](#burbuja)
   * [Selection](#selection)
   * [Insertion](#insertion)
   * [QuickSort](#quicksort)
-  * [Análisis de Algoritmos de Ordenamiento](#analisis-de-algoritmos-de-ordenamiento)
+  * [Análisis de Algoritmos de ordenamiento](#analisis-de-algoritmos-de-ordenamiento)
 
-* [Algoritmos de Búsqueda](#algoritmos-de-busqueda)
+* Algoritmos de Búsqueda
   * [Búsqueda Lineal](#busqueda-lineal)
   * [Búsqueda Binaria](#busqueda-binaria)
 
-* [Estructura de Datos](#estructura-de-datos)
+* Estructura de Datos
   * [Listas](#listas)
   * [Tuplas](#tuplas)
   * [Diccionarios](#diccionarios)
@@ -26,6 +24,13 @@ Las notas de algoritmos en Python proporcionan una guía para aprender los conce
   * [Árboles](#arboles)
   * [Grafos](#grafos)
   * [Análisis de Estructuras de Datos](#analisis-de-estructuras-de-datos)
+
+
+[⬅️ Volver al inicio](../README.md)
+
+Ver también:
+* [Fundamentos](../01-fundamentos)
+* [JavaScript](../02-javascript)
 
 ## Algoritmos de Ordenamiento
 
