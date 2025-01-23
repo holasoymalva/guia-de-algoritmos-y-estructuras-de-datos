@@ -13,16 +13,16 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
     * [Algoritmos de Ordenamiento](./01-fundamentos#algoritmos-de-ordenamiento)
     * [Algoritmos de Busqueda](./01-fundamentos#algoritmos-de-busqueda)
     * [Estructura de Datos](./01-fundamentos#estructuras-de-datos)
-* [Algoritmos y Estructura de datos en Javascript](#javascript-)
-* [Algoritmos y Estructura de datos en Python](#python-)
+* [Algoritmos y Estructura de datos en Javascript](#javascript)
+* [Algoritmos y Estructura de datos en Python](#python)
 * Ejercicios de Practica
 * [Material Complementario](#bibliografia-)
 * [Contribuciones abiertas](#contributing)
 
 
-## [Javascript](./02-javascript) 🍌
+## [Algoritmos y Estructuras de Datos en JavaScript 🍌](./02-javascript)
   
-## [Python](./03-python) 🐍
+## [Algoritmos y Estructuras de Datos en Python  🐍](./03-python)
     
 
 ## Bibliografia 📚
