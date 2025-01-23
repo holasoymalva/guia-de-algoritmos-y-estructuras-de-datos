@@ -144,5 +144,5 @@ Created by : [HolaSoyMalva](https://github.com/holasoymalva).
 [fb]: https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white
 [tt]: https://img.shields.io/badge/tiktok-000000?style=flat-square&logo=tiktok&logoColor=white
 
-[ig-link]: https://www.instagram.com/malvabombom/
-[tt-link]: https://www.tiktok.com/@malvabombom
+[ig-link]: https://www.instagram.com/holasoymalva/
+[tt-link]: https://www.tiktok.com/@holasoymalva
