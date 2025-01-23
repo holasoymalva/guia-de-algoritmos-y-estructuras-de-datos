@@ -60,8 +60,6 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
 * [MIT OpenCourseWare - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
 * [Coursera - Algorithms Specialization by Stanford University](https://www.coursera.org/specializations/algorithms)
 * [Harvard CS50’s Introduction to Computer Science](https://cs50.harvard.edu/)
-* [Pluralsight - Data Structures and Algorithms in Python](https://www.pluralsight.com/courses/data-structures-algorithms-python)
-* [EdX - Algorithmic Thinking](https://www.edx.org/course/algorithmic-thinking)
 
 #### Articulos:
 
