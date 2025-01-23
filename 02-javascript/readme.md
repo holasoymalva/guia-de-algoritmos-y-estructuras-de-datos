@@ -22,6 +22,7 @@
   * [Hash Tables](#hash-tables)
   * [Árboles](#arboles)
   * [Grafos](#grafos)
+  * [Análisis de estructuras de datos](#análisis-de-estructuras-de-datos)
 
 [⬅️ Volver al inicio](../README.md)
 
