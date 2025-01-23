@@ -75,15 +75,64 @@ Input: n = 3
 Output: ["((()))","(()())","(())()","()(())","()()()"]
 ```
 
-### 10. N-Reinas
+## Intervalos y Programación
+
+### 10. Salas de Conferencia
+Dado un array de intervalos de tiempo de reuniones donde intervals[i] = [inicio_i, fin_i], devuelve el número mínimo de salas de conferencia necesarias.
+
+**Ejemplo 1:**
+```javascript
+Input: intervals = [[0,30],[5,10],[15,20]]
+Output: 2
+```
+
+**Ejemplo 2:**
+```javascript
+Input: intervals = [[7,10],[2,4]]
+Output: 1
+```
+
+## Grafos y Transformación de Palabras
+
+### 11. Secuencias de Transformación de Palabras
+Dadas dos palabras (beginWord y endWord) y un diccionario wordList, encuentra todas las secuencias más cortas para transformar beginWord en endWord, donde:
+- Cada par de palabras adyacentes difiere en una sola letra
+- Cada palabra intermedia debe estar en wordList
+- endWord debe ser la última palabra
+
+**Ejemplo 1:**
+```javascript
+Input: 
+beginWord = "hit"
+endWord = "cog"
+wordList = ["hot","dot","dog","lot","log","cog"]
+
+Output: [
+    ["hit","hot","dot","dog","cog"],
+    ["hit","hot","lot","log","cog"]
+]
+```
+
+**Ejemplo 2:**
+```javascript
+Input: 
+beginWord = "hit"
+endWord = "cog"
+wordList = ["hot","dot","dog","lot","log"]
+
+Output: []
+// El endWord "cog" no está en wordList
+```
+
+### 12. N-Reinas
 Coloca N reinas en un tablero de ajedrez NxN sin que se amenacen entre sí.
 
 ## Algoritmos Voraces (Greedy)
 
-### 11. Problema del Cambio
+### 13. Problema del Cambio
 Encuentra el número mínimo de monedas que suman una cantidad dada.
 
-### 12. Saltos Mínimos
+### 14. Saltos Mínimos
 Encuentra el número mínimo de saltos necesarios para llegar al final del array.
 
 ## Consejos para Resolver los Retos 💡
