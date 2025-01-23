@@ -1,3 +1,23 @@
+# Fundamentos de Algoritmos y Estructuras de Datos 📚
+
+## Índice
+
+* [Introducción](#introduccion)
+* [Complejidad Computacional](#complejidad-computacional)
+* [Análisis de algoritmos](#análisis-de-algoritmos)
+* [Big O notation](#big-o-notation---notacion-de-la-gran-o)
+* [Capacidad de Memoria](#capacidad-de-memoria)
+* [Tipos de algoritmos](#tipos-de-algoritmos)
+* [Algoritmos de Ordenamiento](#algoritmos-de-ordenamiento)
+* [Algoritmos de Búsqueda](#algoritmos-de-busqueda)
+* [Estructuras de Datos](#estructuras-de-datos)
+
+[⬅️ Volver al inicio](../README.md)
+
+Ver implementaciones en:
+* [JavaScript](../02-javascript)
+* [Python](../03-python)
+
 ## Introduccion
 
 El análisis de algoritmos y las estructuras de datos son conceptos clave en la programación y el desarrollo de software. Estos temas nos permiten comprender cómo funcionan los programas que escribimos, y cómo podemos mejorarlos para hacerlos más eficientes en términos de tiempo y espacio. En estos apuntes, abordaremos los conceptos básicos del análisis de algoritmos, incluyendo la notación big O, la complejidad temporal y espacial, y los patrones de resolución de problemas. También exploraremos las diferentes estructuras de datos, como las listas, las pilas, las colas y los árboles, y cómo podemos utilizarlas para resolver problemas específicos de manera eficiente. Al final de estos apuntes, esperamos que tengas una comprensión profunda de estos conceptos y estés listo para aplicarlos a tus propios proyectos de programación.
