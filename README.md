@@ -65,22 +65,6 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
 * [ 10 Data Structures explained. ](https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/)
 * [DS-A Workshop @GDGUNAM](https://www.notion.so/DS-A-Workshop-GDGUNAM-8979d2f322d647b5b871da74e862ba3d)
 
-#### Motivation
-* [How to write your first technical book. ](https://www.freecodecamp.org/news/how-to-write-your-first-technical-book/)
-* [How to build an awesome data science portafolio. ](https://www.freecodecamp.org/news/how-to-build-an-awesome-data-science-portfolio/)
-* [5 react projects you need. ](https://www.freecodecamp.org/news/5-react-projects-you-need-in-your-portfolio/)
-* [conquering job interview code challenges. ](https://www.freecodecamp.org/news/conquering-job-interview-code-challenges-v2-0/)
-* [Job Interview Artitles. ](https://www.freecodecamp.org/news/tag/job-interview/)
-* [4 Design Patterns You Should Know](https://www.freecodecamp.org/news/4-design-patterns-to-use-in-web-development/)
-* [how-to-write-efficient-views](https://www.freecodecamp.org/news/how-to-write-efficient-views-models-and-queries-in-django/)
-* [How to Write QA Documentation That Will Actually Work](https://www.freecodecamp.org/news/how-to-write-qa-documentation-that-will-work/)
-* [How to Write Testable Code | Khalil's Methodology](https://www.freecodecamp.org/news/how-to-write-testable-code/)
-* [How to Write More Effectively and Develop Your Unique Style](https://www.freecodecamp.org/news/how-to-write-more-effectively-and-develop-your-unique-style/)
-* [How to Write Freelance Proposals That Will Win Over Clients](https://www.freecodecamp.org/news/free-web-design-proposal-template/)
-* [Data Structures 101](https://rehansattar.hashnode.dev/data-structures-101-graph-traversal-bfs-and-dfs)
-
-
-
 ## Contributing 
 
 Las contribuciones son bienvenidas. Se aceptan desde correcciones ortográficas, ejemplos de código, propuestas de retos de programación y peticiones para agregar o desarrollar los temas que consideres necesarios. Para esto solo sería necesario clonar el repositorio y hacer un PR con los cambios sugeridos.
