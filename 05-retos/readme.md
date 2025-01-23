@@ -1,51 +1,117 @@
-# Excercise
 
-### Problem 1
-Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
+# Retos de Programación 🎯
 
- 
-**Example 1:**
+Colección de ejercicios prácticos para mejorar tus habilidades en algoritmos y estructuras de datos usando JavaScript o Python.
 
-Input: intervals = [[0,30],[5,10],[15,20]]
+[⬅️ Volver al inicio](../README.md)
 
-Output: 2
+## Arrays y Strings
 
-**Example 2:**
+### 1. Encontrar el Elemento Faltante
+Dado un array de n-1 números enteros en el rango de 1 a n, encuentra el número faltante.
 
-Input: intervals = [[7,10],[2,4]]
+**Ejemplo:**
+```javascript
+Input: [1, 2, 4, 6, 3, 7, 8]
+Output: 5
+```
 
-Output: 1
- 
- 
- ### Problem 2
- 
- A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words beginWord -> s1 -> s2 -> ... -> sk such that:
+### 2. Matriz en Espiral
+Imprime una matriz en forma de espiral.
 
-Every adjacent pair of words differs by a single letter.
+**Ejemplo:**
+```javascript
+Input: [
+  [1, 2, 3],
+  [8, 9, 4],
+  [7, 6, 5]
+]
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
 
-Every si for 1 <= i <= k is in wordList. Note that beginWord does not need to be in wordList.
+## Estructuras de Datos
 
-sk == endWord
+### 3. Implementar una Cola usando Pilas
+Implementa una cola usando solo pilas.
 
-Given two words, beginWord and endWord, and a dictionary wordList, return all the shortest transformation sequences from beginWord to endWord, or an empty list if no such sequence exists. Each sequence should be returned as a list of the words [beginWord, s1, s2, ..., sk].
+### 4. LRU Cache
+Implementa una estructura de caché que elimine el elemento menos recientemente usado cuando alcance su capacidad.
 
- 
+## Árboles y Grafos
 
-**Example 1:**
+### 5. Validar BST
+Verifica si un árbol binario es un árbol de búsqueda binaria válido.
 
-Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
+### 6. Encontrar Islas
+Cuenta el número de islas en una matriz 2D (una isla está rodeada por agua y se forma conectando tierras adyacentes).
 
-Output: [["hit","hot","dot","dog","cog"],["hit","hot","lot","log","cog"]]
+**Ejemplo:**
+```javascript
+Input: [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+```
 
-Explanation: There are 2 shortest transformation sequences:
+## Programación Dinámica
 
-"hit" -> "hot" -> "dot" -> "dog" -> "cog"
-"hit" -> "hot" -> "lot" -> "log" -> "cog"
+### 7. Caminos Únicos
+Encuentra el número de caminos únicos desde la esquina superior izquierda hasta la esquina inferior derecha de una matriz.
 
-**Example 2:**
+### 8. Subsecuencia Común más Larga
+Encuentra la longitud de la subsecuencia común más larga entre dos strings.
 
-Input: beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
+## Backtracking
 
-Output: []
+### 9. Generar Paréntesis
+Genera todas las combinaciones posibles de paréntesis bien formados.
 
-Explanation: The endWord "cog" is not in wordList, therefore there is no valid transformation sequence.
+**Ejemplo:**
+```javascript
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
+```
+
+### 10. N-Reinas
+Coloca N reinas en un tablero de ajedrez NxN sin que se amenacen entre sí.
+
+## Algoritmos Voraces (Greedy)
+
+### 11. Problema del Cambio
+Encuentra el número mínimo de monedas que suman una cantidad dada.
+
+### 12. Saltos Mínimos
+Encuentra el número mínimo de saltos necesarios para llegar al final del array.
+
+## Consejos para Resolver los Retos 💡
+
+1. Antes de codificar, planifica tu solución
+2. Considera casos extremos (arrays vacíos, valores negativos, etc.)
+3. Optimiza la solución inicial
+4. Escribe pruebas unitarias
+
+## Estructura de las Soluciones
+
+Las soluciones deben incluir:
+- Descripción del enfoque
+- Complejidad temporal y espacial
+- Código documentado
+- Casos de prueba
+
+## Contribuir
+
+Si deseas agregar nuevos retos:
+1. Fork el repositorio
+2. Crea una rama para tu reto
+3. Añade el reto siguiendo el formato establecido
+4. Envía un pull request
+
+## Recursos de Práctica 📚
+
+- [LeetCode](https://leetcode.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [CodeWars](https://www.codewars.com/)
+- [Project Euler](https://projecteuler.net/)
