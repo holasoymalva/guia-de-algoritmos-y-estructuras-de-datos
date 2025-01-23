@@ -420,3 +420,9 @@ Las estructuras de datos son importantes porque permiten a los programas manejar
 
 Es importante que los programadores conozcan las diferentes estructuras de datos y cómo se utilizan para diseñar programas efectivos y eficientes. Con una comprensión sólida de las estructuras de datos, los programadores pueden seleccionar la estructura adecuada para un problema y escribir programas más eficientes y elegantes.
 
+[⬅️ Volver al inicio](../README.md)
+
+Ver también:
+* [Algoritmos y Estructura de datos en Javascript](../02-javascript)
+* [Algoritmos y Estructura de datos en Python](../02-python)
+
