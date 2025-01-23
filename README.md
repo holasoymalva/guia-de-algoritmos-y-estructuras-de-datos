@@ -73,11 +73,27 @@ Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de 
 
 ## Bibliografia 📚
 
+####  Libros recomendados:
+
+"Introduction to the Design and Analysis of Algorithms" - Anany Levitin.
+
+"The Algorithm Design Manual" - Steven S. Skiena.
+
+"Grokking Algorithms: An illustrated guide for programmers and other curious people" - Aditya Bhargava.
+
+"Data Structures and Algorithms in Python" - Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser.
+
+"Algorithms" - Robert Sedgewick, Kevin Wayne.
+
+"Cracking the Coding Interview" - Gayle Laakmann McDowell.
+
+"Elements of Programming Interviews" - Adnan Aziz, Tsung-Hsien Lee, Amit Prakash.
+
 #### E-books :
 
 * [ Competitive Programmer’s Handbook. ](https://cses.fi/book/book.pdf)
 * [ Competitive Programming. ](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)
-* [ Algorithms Notes for Professionals. ](https://openlibra.com/es/book/algorithms-notes-for-professionals)
+* [ Algorithms Notes for Professionals. ](https://books.goalkicker.com/AlgorithmsBook/)
 
 #### Youtube Tutorials :
 
