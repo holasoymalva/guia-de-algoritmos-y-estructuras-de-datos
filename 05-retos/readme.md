@@ -64,20 +64,9 @@ Encuentra el número de caminos únicos desde la esquina superior izquierda hast
 ### 8. Subsecuencia Común más Larga
 Encuentra la longitud de la subsecuencia común más larga entre dos strings.
 
-## Backtracking
-
-### 9. Generar Paréntesis
-Genera todas las combinaciones posibles de paréntesis bien formados.
-
-**Ejemplo:**
-```javascript
-Input: n = 3
-Output: ["((()))","(()())","(())()","()(())","()()()"]
-```
-
 ## Intervalos y Programación
 
-### 10. Salas de Conferencia
+### 9. Salas de Conferencia
 Dado un array de intervalos de tiempo de reuniones donde intervals[i] = [inicio_i, fin_i], devuelve el número mínimo de salas de conferencia necesarias.
 
 **Ejemplo 1:**
@@ -94,7 +83,7 @@ Output: 1
 
 ## Grafos y Transformación de Palabras
 
-### 11. Secuencias de Transformación de Palabras
+### 10. Secuencias de Transformación de Palabras
 Dadas dos palabras (beginWord y endWord) y un diccionario wordList, encuentra todas las secuencias más cortas para transformar beginWord en endWord, donde:
 - Cada par de palabras adyacentes difiere en una sola letra
 - Cada palabra intermedia debe estar en wordList
@@ -122,6 +111,18 @@ wordList = ["hot","dot","dog","lot","log"]
 
 Output: []
 // El endWord "cog" no está en wordList
+```
+
+
+## Backtracking
+
+### 11. Generar Paréntesis
+Genera todas las combinaciones posibles de paréntesis bien formados.
+
+**Ejemplo:**
+```javascript
+Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]
 ```
 
 ### 12. N-Reinas
