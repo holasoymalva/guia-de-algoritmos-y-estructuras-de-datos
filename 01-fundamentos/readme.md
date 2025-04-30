@@ -424,5 +424,5 @@ Es importante que los programadores conozcan las diferentes estructuras de datos
 
 Ver también:
 * [Algoritmos y Estructura de datos en Javascript](../02-javascript)
-* [Algoritmos y Estructura de datos en Python](../02-python)
+* [Algoritmos y Estructura de datos en Python](../03-python)
 
