@@ -1,5 +1,7 @@
 # Guía de algoritmos y estructuras de datos. 🧮
 
+<img width="1280" height="640" alt="hoodi Desing" src="https://github.com/user-attachments/assets/601b6aba-cb63-46df-a687-8126efc81c31" />
+
 Hola, quiero darte la bienvenida a este recurso donde encontrarás una serie de notas, ejemplos y ejercicios para conocer más a detalle cómo funcionan los algoritmos y las estructuras de datos. Estos temas, en particular, son uno de los pilares al aprender a programar, ya que nos ayudan a entender cómo resolver problemas y desarrollar nuestra lógica de programación. Espero lo disfrutes. 🙌
 
 ## Indice :
