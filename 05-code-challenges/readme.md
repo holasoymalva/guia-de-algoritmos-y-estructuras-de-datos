@@ -2,10 +2,10 @@
 # Retos de Programación 🎯
 
 ### Reto de Agosto
-- [Challenge : Dia 1](./august-challenge/challenge-01)
-- [Challenge : Dia 2](./august-challenge/challenge-02)
-- [Challenge : Dia 3](./august-challenge/challenge-03)
-- [Challenge : Dia 4](./august-challenge/challenge-04)
+- [Challenge : Dia 1](./august-challenge/challenge-01/martin-challenge.js)
+- [Challenge : Dia 2](./august-challenge/challenge-02/martin-challenge.js)
+- [Challenge : Dia 3](./august-challenge/challenge-03/martin-challenge.js)
+- [Challenge : Dia 4](./august-challenge/challenge-04/martin-challenge.js)
 
 ## Recursos de Práctica 📚
 
