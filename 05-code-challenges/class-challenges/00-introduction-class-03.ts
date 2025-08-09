@@ -29,3 +29,10 @@ The only distinct string is "b". Since there are fewer than 3 distinct strings, 
  
 */
 
+function kthDistinct(arr: string[], k: number): string {
+    let freq: {[key: string]: number} = {};
+    for (let s of arr) freq[s] = (freq[s]||0) + 1;
+    let c = 0;
+    for (let s of arr) if (freq[s] === 1 && ++c === k) return s;
+    return "";
+}
