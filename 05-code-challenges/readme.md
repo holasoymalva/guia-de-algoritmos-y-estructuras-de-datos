@@ -15,7 +15,7 @@
 - [Challenge : Dia 6](./august-challenge/challenge-06/martin-challenge.js)
 - [Challenge : Dia 7](./august-challenge/challenge-07/martin-challenge.js)
 - [Challenge : Dia 8](./august-challenge/challenge-08/martin-challenge.js)
-- [Challenge : Dia 9](./august-challenge/challenge-09/martin-challenge.ts)
+- [Challenge : Dia 9](./august-challenge/challenge-09/martin_challenge.ts)
 
 ## Recursos de Práctica 📚
 
