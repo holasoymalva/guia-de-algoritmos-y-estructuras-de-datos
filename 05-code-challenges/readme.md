@@ -2,8 +2,8 @@
 # Retos de Programación 🎯
 
 ### Algoritmos Propuestos
-- [Challenge : K ]
-- [Challenge : Ventana y Punteros]
+- [Challenge - Introduction class: Find K Closest Elements ](./class-challenges/00-introduction-class-01.ts)
+- [Challenge - Introduction class : Minimum Common Value ](./class-challenges/00-introduction-class-02.ts)
 
 ### Reto de Agosto
 - [Challenge : Dia 1](./august-challenge/challenge-01/martin-challenge.js)
