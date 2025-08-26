@@ -1083,7 +1083,7 @@ restaurante.estadoRestaurante();
 
 ### Ventajas de las colas:
 
-- **Justicia**: Garantiza que se procesen elementos en orden de llegada
+- **Order**: Garantiza que se procesen elementos en orden de llegada
 - **Simplicidad**: Fáciles de entender e implementar
 - **Eficiencia**: Operaciones enqueue y dequeue son rápidas
 - **Organización**: Mantiene un orden claro y predecible
