@@ -23,6 +23,8 @@
   - [Colas](#colas)
   - [Hash Tables](#hash-tables)
   - [Árboles](#arboles)
+    - [Prefix Trees](https://polaris000.medium.com/understanding-prefix-trees-13da74b3cafb)
+    - [Trie Data Structure](https://www.geeksforgeeks.org/dsa/trie-insert-and-search/) 
   - [Grafos](#grafos)
   - [Análisis de estructuras de datos](#análisis-de-estructuras-de-datos)
 
